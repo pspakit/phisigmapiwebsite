@@ -1,5 +1,6 @@
 // css
 import './App.css';
+import '../node_modules/bulma/css/bulma.css';
 
 // react-router-dom imports
 import { Routes, Route} from 'react-router-dom';
@@ -7,7 +8,9 @@ import { Routes, Route} from 'react-router-dom';
 // Component Imports
 import Landing from './components/landingPage';
 import About from './components/about';
-
+import Recruitment from './components/recruitment';
+import Gallery from './components/gallery';
+import Siblings from './components/siblings';
 
 
 function App() {
@@ -27,6 +30,20 @@ function App() {
         element={<About />}
       />
 
+      <Route 
+        exact path='/recruitment'
+        element={<Recruitment />}
+      />
+
+      <Route 
+        exact path='/gallery'
+        element={<Gallery />}
+      />
+
+      <Route 
+        exact path='/siblings'
+        element={<Siblings />}
+      />
 
     </Routes>
   )
