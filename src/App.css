@@ -1,3 +1,138 @@
-h1 {
-  color: red;
+
+.box h1 {
+  color: #eabe39;
+  font-size: 30px;
+  font-family: 'Ubuntu';
 }
+
+.topnav {
+  z-index: 9999999999;
+  background-color: #522874;
+  overflow: hidden;
+  font-family: 'Ubuntu';
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  display: block;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; 
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #eabe39;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.box h2 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Ubuntu';
+}
+
+.box p {
+  color: black;
+  font-size: 20px;
+  font-family: 'Ubuntu';
+}
+
+.container iframe {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.logo-image {
+  width: 30px;
+  height: 31.5px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.topnav input[type=password] {
+  margin-left: 12px;
+  padding: 9px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 150px;
+  font-family: 'Ubuntu';
+}
+
+.topnav .login-container button {
+  padding: 9px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #eabe39;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Ubuntu';
+  color: #f2f2f2;
+}
+
+.topnav .login-container button:hover {
+  background-color: #ddd; 
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=password], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=password] {
+    border: 1px solid #ccc;
+  }
+}
+
+
+
+
+
+
+
+
+
+
