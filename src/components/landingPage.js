@@ -38,15 +38,24 @@ export default function Landing() {
                     <section className="box has-text-centered">
                         <h2>Scholarship</h2>
                     </section>
+                    <section className="box has-text-centered">
+                        <h2>Image</h2>
+                    </section>
                 </div>
                 <div className="column">
                     <section className="box has-text-centered">
                         <h2>Leadership</h2>
                     </section>
+                    <section className="box has-text-centered">
+                        <h2>Image</h2>
+                    </section>
                 </div>
                 <div className="column">
                     <section className="box has-text-centered">
                         <h2>Fellowship</h2>
+                    </section>
+                    <section className="box has-text-centered">
+                        <h2>Image</h2>
                     </section>
                 </div>
             </div>

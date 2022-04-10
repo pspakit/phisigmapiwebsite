@@ -45,10 +45,31 @@
   font-family: 'Ubuntu';
 }
 
+.box h3 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Ubuntu';
+}
+
 .box p {
   color: black;
   font-size: 20px;
   font-family: 'Ubuntu';
+}
+
+.container p {
+  color: black;
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  padding-bottom: 20px;
+  margin: 10px;
+}
+
+.container h4 {
+  color: #522874;
+  font-size: 25px;
+  font-family: 'Ubuntu';
+  padding-bottom: 20px;
 }
 
 .container iframe {
