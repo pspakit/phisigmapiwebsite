@@ -1,6 +1,15 @@
-//import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function About() {
+
+    const navigate = useNavigate();
+    const handleClick = e => {
+         if (document.getElementById("SiblingCode").value === "pspak" || document.getElementById("SiblingCode").value === "PSPAK") {
+            navigate("/siblings")
+         } else {
+            alert("The sibling code you entered was incorrect. Try again!")
+         }
+    }
 
     return (
         <div>
@@ -13,7 +22,14 @@ export default function About() {
                 <a className="active" href="/about">About</a>
                 <a href="/recruitment">Recruitment</a>
                 <a href="/gallery">Gallery</a>
-                <a href="/siblings">Siblings</a>
+
+                <div className="login-container">
+                    <form id="siblingPageForm">
+                        <input type="password" placeholder="Sibling Code" id="SiblingCode"></input>
+                        <button type="button" onClick={handleClick}>Sibling Page</button>
+                    </form>
+                </div>
+                
             </div>
             <div>
                 <section className="box">
