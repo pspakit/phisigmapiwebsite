@@ -1,5 +1,15 @@
+import { useNavigate } from "react-router-dom";
 
 export default function Gallery() {
+
+    const navigate = useNavigate();
+    const handleClick = e => {
+         if (document.getElementById("SiblingCode").value === "pspak" || document.getElementById("SiblingCode").value === "PSPAK") {
+            navigate("/siblings")
+         } else {
+            alert("The sibling code you entered was incorrect. Try again!")
+         }
+    }
 
     return (
         <div>
@@ -12,20 +22,27 @@ export default function Gallery() {
                 <a href="/about">About</a>
                 <a href="/recruitment">Recruitment</a>
                 <a className="active" href="/gallery">Gallery</a>
-                <a href="/siblings">Siblings</a>
+
+                <div className="login-container">
+                    <form id="siblingPageForm">
+                        <input type="password" placeholder="Sibling Code" id="SiblingCode"></input>
+                        <button type="button" onClick={handleClick}>Sibling Page</button>
+                    </form>
+                </div>
+                
             </div>
             <div>
                 <section className="box">
-                    <h1 className="has-text-centered">Photo Gallery</h1>
+                    <h1 className="has-text-centered">PHOTO GALLERY</h1>
                 </section>
                 <section className="box">
-                    <h1 className="has-text-centered">Semi-Formal</h1>
+                    <h1 className="has-text-centered">SCHOLARSHIP</h1>
                 </section>
                 
                 <div className="row">
                     <div className="column">
-                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
                         <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
                         <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
                         <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
                     </div>
@@ -50,7 +67,7 @@ export default function Gallery() {
                 </div>
 
                 <section className="box">
-                    <h1 className="has-text-centered">Retreat</h1>
+                    <h1 className="has-text-centered">LEADERSHIP</h1>
                 </section>
 
                 <div className="row">
@@ -81,7 +98,7 @@ export default function Gallery() {
                 </div>
 
                 <section className="box">
-                    <h1 className="has-text-centered">Event</h1>
+                    <h1 className="has-text-centered">FELLOWSHIP</h1>
                 </section>
                 <section className="box">
                     <h1 className="has-text-centered">Event</h1>
