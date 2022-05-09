@@ -33,8 +33,17 @@ export default function Landing() {
                 
             </div>
 
-            <section className="box has-text-centered">
-                <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+            <section className="top-image-hello">
+                <img src="unc_top_image.jpg"></img>
+            </section>
+
+            <section className="pic-col-container">
+                <div className="pic-col">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f4d9625c3400ed93fbe67/1596056857620-921THRVLSLZ05KZT8UTR/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                </div>
+                <div className="pic-col">
+                    <img src="https://logos-world.net/wp-content/uploads/2021/11/UNC-Logo.png"></img>
+                </div>
             </section>
 
             <section className="box">
