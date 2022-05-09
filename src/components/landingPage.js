@@ -41,33 +41,27 @@ export default function Landing() {
                 </div>
             </div>   
 
-            <section className="box">
+            <section className="special-container">
                 <h1 className="has-text-centered">UNC’s Gender-Inclusive National Honor Fraternity</h1>
-            </section>
-
-            <section className="box">
-                <h1 className="has-text-centered">Slideshow</h1>
             </section>
 
             <div className="tripod-row">
                 <div className="tripod-col">
-                    <img src="./components/Scholarship.jpg"></img>
+                    <img src="pictures/Scholarship.jpg" alt="Scholarship Image"/>
                 </div>
                 <div className="tripod-col">
-                    <img src="./components/Leadership.jpg"></img>
+                    <img src="pictures/Leadership.jpg" alt="Leadership Image"></img>
                 </div>
                 <div className="tripod-col">
-                    <img src="./components/fellowship.jpg"></img>
+                    <img src="pictures/fellowship.jpg" alt="Fellowship Image"></img>
                 </div>
             </div>
 
-            <section className="pic-col-container">
-                <div className="pic-col">
-                    <img src="https://images.squarespace-cdn.com/content/v1/5e9f4d9625c3400ed93fbe67/1596056857620-921THRVLSLZ05KZT8UTR/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
-                </div>
-                <div className="pic-col">
-                    <img src="https://logos-world.net/wp-content/uploads/2021/11/UNC-Logo.png"></img>
-                </div>
+            <section className="footer-container">
+                <a href="https://www.instagram.com/phisigmapiunc/" className="fa fa-instagram"></a>
+                <a></a>
+                <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
+                <h1 className="has-text-centered">2022</h1>
             </section>
 
         </div>

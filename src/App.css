@@ -5,6 +5,16 @@
   font-family: 'Montserrat';
 }
 
+.special-container h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:#eabe39;
+  color: white;
+  font-size: 40px;
+  font-family: 'Montserrat';
+  width: 100%;
+}
+
 .topnav {
   z-index: 9999999999;
   background-color: #522874;
@@ -342,30 +352,8 @@
     padding-bottom: 20px;
   }
 
-  .pic-col-container {
-    padding-top: 30px;
-  }
-
-  .pic-col-container::after {
-    content: "";
-    clear: both;
-    display: table;  
-  }
-
-  .pic-col {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .pic-col img {
-    width: 500px;
-    height: 200px;
-  }
-
   .top-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./components/unc_top_image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/pictures/unc_top_image.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -387,15 +375,43 @@
 
   .tripod-row::after {
     content: "";
-    clear: both;
     display: table;
   }
 
   .tripod-col {
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding: 0;
   }
+
+  .footer-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#522874;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    width: 100%;
+    text-align: center;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    color:#eabe39
+  }
+
+  .fa-instagram {
+    background:#522874;
+    color: white;
+  }
+
 
   
 
