@@ -30,12 +30,36 @@ export default function Landing() {
                         <button type="button" onClick={handleClick}>Sibling Page</button>
                     </form>
                 </div>
-                
             </div>
 
-            <section className="top-image-hello">
-                <img src="unc_top_image.jpg"></img>
+            
+
+            <div className="top-image">
+                <div className="top-image-text">
+                    <h1>PHI SIGMA PI</h1>
+                    <h1>ALPHA KAPPA CHAPTER</h1>
+                </div>
+            </div>   
+
+            <section className="box">
+                <h1 className="has-text-centered">UNC’s Gender-Inclusive National Honor Fraternity</h1>
             </section>
+
+            <section className="box">
+                <h1 className="has-text-centered">Slideshow</h1>
+            </section>
+
+            <div className="tripod-row">
+                <div className="tripod-col">
+                    <img src="./components/Scholarship.jpg"></img>
+                </div>
+                <div className="tripod-col">
+                    <img src="./components/Leadership.jpg"></img>
+                </div>
+                <div className="tripod-col">
+                    <img src="./components/fellowship.jpg"></img>
+                </div>
+            </div>
 
             <section className="pic-col-container">
                 <div className="pic-col">
@@ -46,44 +70,6 @@ export default function Landing() {
                 </div>
             </section>
 
-            <section className="box">
-                <h1 className="has-text-centered">Phi Sigma Pi</h1>
-                <h1 className="has-text-centered">Alpha Kappa Chapter</h1>
-            </section>
-            
-            <section className="box">
-                <h1 className="has-text-centered">Slideshow</h1>
-            </section>   
-
-            <section className="box">
-                <h1 className="has-text-centered">UNC’s Gender-Inclusive National Honor Fraternity</h1>
-            </section>
-            <div className="columns">
-                <div className="column">
-                    <section className="box has-text-centered">
-                        <h2>Scholarship</h2>
-                    </section>
-                    <section className="box has-text-centered">
-                        <h2>Image</h2>
-                    </section>
-                </div>
-                <div className="column">
-                    <section className="box has-text-centered">
-                        <h2>Leadership</h2>
-                    </section>
-                    <section className="box has-text-centered">
-                        <h2>Image</h2>
-                    </section>
-                </div>
-                <div className="column">
-                    <section className="box has-text-centered">
-                        <h2>Fellowship</h2>
-                    </section>
-                    <section className="box has-text-centered">
-                        <h2>Image</h2>
-                    </section>
-                </div>
-            </div>
         </div>
     )
     
