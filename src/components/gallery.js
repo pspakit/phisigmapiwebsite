@@ -102,7 +102,15 @@ export default function Gallery() {
                 </section>
                 <section className="box">
                     <h1 className="has-text-centered">Event</h1>
-                </section>    
+                </section> 
+
+                <section className="footer-container">
+                    <a href="https://www.instagram.com/phisigmapiunc/" className="fa fa-instagram"></a>
+                    <a></a>
+                    <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
+                    <h1 className="has-text-centered">2022</h1>
+                </section>
+
             </div>
         </div>
     )
