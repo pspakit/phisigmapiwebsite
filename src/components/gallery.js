@@ -12,7 +12,7 @@ export default function Gallery() {
     }
 
     return (
-        <div>
+        <div id="top">
             <div className="topnav">
                 <a href="/">
                     <div className="logo-image">
@@ -109,6 +109,8 @@ export default function Gallery() {
                     <a></a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
+                    <a></a>
+                    <a href="#top" className="fa fa-arrow-up"></a>
                 </section>
 
             </div>
