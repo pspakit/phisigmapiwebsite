@@ -15,31 +15,31 @@ export default function Siblings() {
                 <a className="active" href="/siblings">Siblings</a>
             </div>
             <div>
-                <section className="box">
+                <section className="special-container">
                     <h1 className="has-text-centered">Calendar</h1>
                 </section>
                 <section className="container">
                     <iframe src="https://docs.google.com/document/d/e/2PACX-1vSDPfHW7jD0rxx1z2NDevO2O4BylQcxQ0pqo75yH7mvY3NVkB4lpjAnuvT1IjLcDEM5A3UhHlbHcpAa/pub?embedded=true" scrolling="auto" width="100%" height="550"></iframe>
                 </section>
-                <section className="box">
+                <section className="special-container">
                     <h1 className="has-text-centered">Attendance</h1>
                 </section>
                 <section className="box">
                     <h1 className="has-text-centered"></h1>
                 </section>
-                <section className="box">
+                <section className="special-container">
                     <h1 className="has-text-centered">Sibling Requirements</h1>
                 </section>
                 <section className="box">
                     <h1 className="has-text-centered"></h1>
                 </section>
-                <section className="box">
+                <section className="special-container">
                     <h1 className="has-text-centered">Absences</h1>
                 </section>
                 <section className="box">
                     <h1 className="has-text-centered"></h1>
                 </section>
-                <section className="box">
+                <section className="special-container">
                     <h1 className="has-text-centered">Directory</h1>
                 </section>
                 <section className="box">

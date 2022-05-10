@@ -32,11 +32,11 @@ export default function Gallery() {
                 
             </div>
             <div>
-                <section className="box">
-                    <h1 className="has-text-centered">PHOTO GALLERY</h1>
+                <section className="special-container">
+                    <h1 className="has-text-centered">Photo Gallery</h1>
                 </section>
-                <section className="box">
-                    <h1 className="has-text-centered">SCHOLARSHIP</h1>
+                <section className="special-container">
+                    <h4 className="has-text-centered">Scholarship</h4>
                 </section>
                 
                 <div className="row">
@@ -66,8 +66,8 @@ export default function Gallery() {
                     </div>
                 </div>
 
-                <section className="box">
-                    <h1 className="has-text-centered">LEADERSHIP</h1>
+                <section className="special-container">
+                    <h4 className="has-text-centered">Leadership</h4>
                 </section>
 
                 <div className="row">
@@ -97,12 +97,67 @@ export default function Gallery() {
                     </div>
                 </div>
 
-                <section className="box">
-                    <h1 className="has-text-centered">FELLOWSHIP</h1>
+                <section className="special-container">
+                    <h4 className="has-text-centered">Fellowship</h4>
                 </section>
-                <section className="box">
-                    <h1 className="has-text-centered">Event</h1>
+
+                <div className="row">
+                    <div className="column">
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                    </div>
+                    <div className="column">
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                    </div>
+                    <div className="column">
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                    </div>
+                    <div className="column">
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                    </div>
+                </div>
+
+                <section className="special-container">
+                    <h4 className="has-text-centered">Event</h4>
                 </section> 
+
+                <div className="row">
+                    <div className="column">
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                    </div>
+                    <div className="column">
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                    </div>
+                    <div className="column">
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                    </div>
+                    <div className="column">
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_Horizontalwordmark_4c.jpg"></img>
+                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.jpg"></img>
+                    </div>
+                </div>
 
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" className="fa fa-instagram"></a>

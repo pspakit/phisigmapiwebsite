@@ -1,7 +1,7 @@
 
 .box h1 {
-  color: #eabe39;
-  font-size: 30px;
+  color:#eabe39;
+  font-size: 40px;
   font-family: 'Montserrat';
 }
 
@@ -13,6 +13,44 @@
   font-size: 40px;
   font-family: 'Montserrat';
   width: 100%;
+}
+
+.special-container h4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  background-color:#522874;
+  font-size: 25px;
+  font-family: 'Montserrat';
+}
+
+.email-container h4 {
+  color: white;
+  background-color:#522874;
+  font-size: 25px;
+  font-family: 'Montserrat';
+}
+
+.email-container {
+  background-color:#522874;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.email-container a {
+  color:#eabe39;
+}
+
+.email-container a:hover {
+  color: black;
+}
+
+.special-container p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  font-size: 20px;
+  font-family: 'Open Sans';
 }
 
 .topnav {
@@ -75,7 +113,68 @@
   color: black;
   font-size: 20px;
   font-family: 'Open Sans';
-  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.another-container p {
+  color: black;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.another-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.special-qualification-container {
+  color:#522874;
+  font-size: 25px;
+  font-family: 'Open Sans';
+  padding-top: 50px;
+}
+
+.qualification-container p {
+  padding-bottom: 10px;
+}
+
+.qualification-container {
+  color: black;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.qualification-container p:hover {
+  color:#eabe39;
+}
+
+.sub-container p {
+  color: black;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+
+.other-sub-container p {
+  color: black;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .recruitment-schedule-container h4 {
@@ -116,7 +215,9 @@
 }
 
 .row {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
 }
@@ -127,15 +228,12 @@
 }
 
 .rectangular-column {
-  padding: 16px;
+  padding: 30px;
   text-align: center;
   color: black;
   font-size: 20px;
   font-family: 'Open Sans';
   background-color: #eabe39;
-  border-style: solid;
-  border-width: 0.5px;
-  border-color:#522874;
   display: table-cell;
 }
 
@@ -150,7 +248,9 @@
 }
 
 .column {
-  flex: 50%;
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
 }
 
@@ -164,6 +264,23 @@
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .topnav input[type=password] {
@@ -329,29 +446,6 @@
     }
   }
 
-  fieldset {
-    color: black;
-    font-size: 20px;
-    font-family: 'Open Sans';
-    text-align: center;
-  }
-
-  fieldset > div {
-    display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: left;
-  }
-
-  label {
-    padding-left: 20px;
-  }
-
-  fieldset > div > * {
-    align-self: baseline;
-    padding-bottom: 20px;
-  }
-
   .top-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/pictures/unc_top_image.jpg");
     height: 50%;
@@ -373,12 +467,33 @@
     font-family: 'Montserrat';
   }
 
+  .tripod-row {
+    margin-bottom: -6px;
+  }
+
   .tripod-row::after {
     content: "";
+    clear: both;
     display: table;
   }
 
   .tripod-col {
+    float: left;
+    width: 33.33%;
+    padding: 0;
+  }
+
+  .mission-row {
+    margin-bottom: -6px;
+  }
+
+  .mission-row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .mission-col {
     float: left;
     width: 33.33%;
     padding: 0;

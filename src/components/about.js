@@ -32,19 +32,60 @@ export default function About() {
                 
             </div>
             <div>
-                <section className="box">
+                <section className="special-container">
                     <h1 className="has-text-centered">Our Chapter</h1>
                 </section>
-                <section className="box">
-                    <p className="has-text-centered">Information about PSP nationally</p>
-                    <p className="has-text-centered">Information about Alpha Kappa chapter</p>
-                    <p className="has-text-centered">Information about Tripod</p>
+
+                <section className="special-container has-text-centered">
+                    <h4>Mission</h4>
                 </section>
-                <section className="box">
+
+                <section className="container">
+                    <p className="has-text-centered">Phi Sigma Pi National Honor Fraternity is an inclusive organization dedicated to: promoting lifelong learning, inspiring Members to lead, and cultivating lasting fraternal bonds, while always conducting our lives with honor. We commit ourselves to a life of social service with the goal of improving humanity through our principles: Scholarship, Leadership, and Fellowship.</p>
+                </section>
+
+                <div className="mission-row">
+                    <div className="mission-col">
+                        <img src="pictures/soccer.jpg" alt="4 Girls With Sign"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/shirts.jpg" alt="Phi Sig Shirts"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/arboretum.jpg" alt="Arboretum Image"></img>
+                    </div>
+                </div>
+                
+                <section className="special-container has-text-centered">
+                    <h4>Tripod</h4>
+                </section>
+
+                <section className="sub-container">
+                    <p className="has-text-centered">Scholarship</p>
+                </section>
+
+                <section className="container">
+                    <p className="has-text-centered">As an honor organization, we expect our Members to maintain good academic standing. Academic standing, however, is just a small part of the scholarship ideal. Scholarship in our organization expands outside the classroom and is a part of a larger “always learning” philosophy. Our Chapters coordinate scholarship events such as painting nights, TED Talks and mental health awareness panels.</p>
+                </section>
+
+                <section className="other-sub-container">
+                    <p className="has-text-centered">Leadership</p>
+                </section>
+
+                <section className="container">
+                    <p className="has-text-centered">Phi Sigma Pi provides the opportunity for students to gain core leadership skills to strengthen oneself; but then, just as importantly, how they apply that skill to pay it forward. Our nationally award-winning Leadership in Action is a personal/professional leadership training and certification program that provides Members with the skills to inspire a positive change. This certification program goes beyond the traditional organization leadership roles by exploring communication skills for emerging leaders and team management. Leadership in Phi Sigma Pi also extends through service in our communities. Our Chapters support our National Philanthropy and also plan philanthropic events with their local organizations that have a meaningful impact to the local community.</p>
+                </section>
+
+                <section className="other-sub-container">
+                    <p className="has-text-centered">Fellowship</p>
+                </section>
+
+                <section className="container">
+                    <p className="has-text-centered">Phi Sigma Pi develops a culture of fellowship within the organization. In addition to a culture that develops friendships, it also fosters a sense of teamwork and camaraderie that allows for the local Chapter to plan successful events and activities. In Phi Sigma Pi, you’re a Member for life. Fellowship provides the passion and stability to fully remain involved with Phi Sigma Pi.</p>
+                </section>
+
+                <section className="special-container">
                     <h1 className="has-text-centered">Leadership</h1>
-                </section>
-                <section className="box">
-                    <h1 className="has-text-centered"></h1>
                 </section>
 
                 <section className="footer-container">
