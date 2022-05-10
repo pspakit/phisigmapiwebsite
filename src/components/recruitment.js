@@ -32,14 +32,14 @@ export default function Recruitment() {
                 
             </div>
             <div>
-                <section className="box">
-                    <h1 className="has-text-centered">RECRUITMENT TIMELINE</h1>
+                <section className="special-container">
+                    <h1 className="has-text-centered">Recruitment Timeline</h1>
                 </section>
                 <section className="recruitment-schedule-container">
                     <h4 className="has-text-centered">[  FALL 2022 RECRUITMENT SCHEDULE COMING SOON!  ]</h4>
                 </section>
-                <section className="box has-text-centered">
-                    <h4>HOW MANY RECRUITMENT EVENTS DO I NEED TO ATTEND?</h4>
+                <section className="special-container has-text-centered">
+                    <h4>How many recruitment events do I need to attend?</h4>
                 </section>
 
                 <div className="rectangular-column-container">
@@ -54,13 +54,26 @@ export default function Recruitment() {
                     </div>
                 </div>
 
+                <div className="mission-row">
+                    <div className="mission-col">
+                        <img src="pictures/beta_omicron.jpg" alt="Beta O's!"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/basketballs.jpg" alt="Beta O's!"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/4_girls_with_sign.jpg" alt="Beta O's!"></img>
+                    </div>
+                </div>
+
+                <section className="special-container has-text-centered">
+                    <h4>What does my full recruitment timeline look like?</h4>
+                </section>
+
                 <div className="spacing-container">
                     <p>  </p>
                 </div>
 
-                <section className="box has-text-centered">
-                    <h4>WHAT DOES MY FULL RECRUITMENT TIMELINE LOOK LIKE?</h4>
-                </section>
                 <section className="timeline">
                     <div className="time-container left">
                         <div className="content">
@@ -93,48 +106,45 @@ export default function Recruitment() {
                         </div>
                     </div>
                 </section>
-                <section className="box">
-                    <h1 className="has-text-centered">MEMBERSHIP REQUIREMENTS</h1>
-                </section>
-                <section className="box">
-                    <h4 className="has-text-centered">ARE YOU ELIGIBLE FOR RECRUITMENT?</h4>
-                    <p className="has-text-centered">NEW MEMBERSHIP QUALIFICATIONS INCLUDE...</p>
+                <section className="special-container">
+                    <h1 className="has-text-centered">Membership Requirements</h1>
                 </section>
 
-                <fieldset>
-                    <div>
-                        <input type="checkbox" id="1"></input>
-                        <label for="1"> Must have a 3.0 UNC GPA</label>
+                <div className="mission-row">
+                    <div className="mission-col">
+                        <img src="pictures/I_went_phi_sig.jpg" alt="I went phi sig!"></img>
                     </div>
-                    <br></br>
-                    <div>
-                        <input type="checkbox" id="2"></input>
-                        <label for="2"> Must have been a UNC student for at least one semester and have at least 3 semesters left at UNC</label>
+                    <div className="mission-col">
+                        <img src="pictures/waffle.jpg" alt="Bid Breakfast"></img>
                     </div>
-                    <br></br>
-                    <div>
-                        <input type="checkbox" id="3"></input>
-                        <label for="3"> Must be available for Initiate Chapter meetings on Wednesdays from 6:00 - 7:30 PM</label>
+                    <div className="mission-col">
+                        <img src="pictures/campus_y.jpg" alt="Beta O's!"></img>
                     </div>
-                    <br></br>
-                    <div>
-                        <input type="checkbox" id="4"></input>
-                        <label for="4"> Must fulfill the recruitment attendance requirements (be present at 1 weekday event and the Friday event each week) in addition to completing the fact sheet application and submitting it on time to the Recruitment Advisors</label>
-                    </div>
-                </fieldset>
+                </div>
 
-                <section className="box">
-                    <h4 className="has-text-centered">WHAT ARE WE LOOKING FOR IN OUR NEW MEMBERS?</h4>
+                <section className="special-container">
+                    <h4 className="has-text-centered">Are you eligible for recruitment?</h4>
                 </section>
 
-                <section className="container has-text-centered">
+                <section className="special-qualification-container">
+                    <p className="has-text-centered">New membership qualifications include...</p>
+                </section>
+
+                <section className="another-container has-text-centered">
+                    <p>Must have a 3.0 UNC GPA</p>
+                    <p>Must have been a UNC student for at least one semester and have at least 3 semesters left at UNC</p>
+                    <p>Must be available for Initiate Chapter meetings on Wednesdays from 6:00 - 7:30 PM</p>
+                    <p>Must fulfill the recruitment attendance requirements (be present at 1 weekday event and the Friday event each week) in addition to completing the fact sheet application and submitting it on time to the Recruitment Advisors</p>
+                </section>
+
+                <section className="special-container">
+                    <h4 className="has-text-centered">What are we looking for in our new members?</h4>
+                </section>
+
+                <section className="another-container has-text-centered">
                     <p>We want to extend our community and friendship to Carolina undergraduates looking to find their niche on campus</p>
                     <p>Here are some of the things we would love to see in our new members...</p>
                 </section>
-
-                <div className="spacing-container">
-                    <p>  </p>
-                </div>
 
                 <div className="rectangular-column-container">
                     <div className="rectangular-column">
@@ -151,15 +161,23 @@ export default function Recruitment() {
                     </div>
                 </div>
 
-                <div className="spacing-container">
-                    <p>  </p>
+                <div className="mission-row">
+                    <div className="mission-col">
+                        <img src="pictures/rose.jpg" alt="Will you accept this rose?"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/another_welcome_to_fam.jpg" alt="Welcome to the fam!"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/welcome_to_fam.jpg" alt="Welcome to the fam!"></img>
+                    </div>
                 </div>
 
-                <section className="box">
-                    <h4 className="has-text-centered">WHAT HAPPENS IF YOU RECEIVE A BID AND BECOME AN INITIATE?</h4>
+                <section className="special-container">
+                    <h4 className="has-text-centered">What happens if you receive a bid and become an initiate?</h4>
                 </section>
 
-                <section className="container has-text-centered">
+                <section className="another-container has-text-centered">
                     <p>You will complete a six-week Initiate period under the guidance of the Initiate Advisors</p>
                     <p>The Initiate Period includes a pinning ceremony, attending weekly meetings on Wednesdays, receiving a Big Sibling and Family, meeting one-on-one with chapter members, going on a bonding retreat, planning chapter events, and more</p>
                     <p>The initiate period will conclude with the Ritual in which you will be inducted as a full member if all Initiation requirements are met</p>
@@ -168,17 +186,13 @@ export default function Recruitment() {
                     <p>Some dues relief and financial assistance can be offered to initiates each semester</p>
                 </section>
 
-                <div className="spacing-container">
-                    <p>  </p>
-                </div>
-
-                <section className="box">
+                <section className="email-container">
                     <h4 className="has-text-centered">Please direct any questions in the weeks prior or during Recruitment to the Recruitment Advisors at:</h4>
                     <h4 className="has-text-centered"><a href="mailto:pspakrecruitment@gmail.com">pspakrecruitment@gmail.com</a></h4>
                 </section>
 
-                <section className="box">
-                    <h1 className="has-text-centered">RECRUITMENT MATERIALS</h1>
+                <section className="special-container">
+                    <h1 className="has-text-centered">Recruitment Materials</h1>
                 </section>
                 <section className="recruitment-schedule-container">
                     <h4 className="has-text-centered">[  FALL 2022 RECRUITMENT FACT SHEET  ]</h4>
