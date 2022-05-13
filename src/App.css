@@ -531,6 +531,14 @@
     color: white;
   }
 
+  .column img:hover {
+    border: 3px solid #eabe39;
+  }
+
+  .row {
+    background-color:#522874;
+  }
+
 
   
 
