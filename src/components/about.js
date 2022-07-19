@@ -60,7 +60,7 @@ export default function About() {
                     <h4>Tripod</h4>
                 </section>
 
-                <section className="sub-container">
+                <section className="special-qualification-container">
                     <p className="has-text-centered">Scholarship</p>
                 </section>
 
@@ -68,7 +68,7 @@ export default function About() {
                     <p className="has-text-centered">As an honor organization, we expect our Members to maintain good academic standing. Academic standing, however, is just a small part of the scholarship ideal. Scholarship in our organization expands outside the classroom and is a part of a larger “always learning” philosophy. Our Chapters coordinate scholarship events such as painting nights, TED Talks and mental health awareness panels.</p>
                 </section>
 
-                <section className="other-sub-container">
+                <section className="no-top-special-qualification-container">
                     <p className="has-text-centered">Leadership</p>
                 </section>
 
@@ -76,7 +76,7 @@ export default function About() {
                     <p className="has-text-centered">Phi Sigma Pi provides the opportunity for students to gain core leadership skills to strengthen oneself; but then, just as importantly, how they apply that skill to pay it forward. Our nationally award-winning Leadership in Action is a personal/professional leadership training and certification program that provides Members with the skills to inspire a positive change. This certification program goes beyond the traditional organization leadership roles by exploring communication skills for emerging leaders and team management. Leadership in Phi Sigma Pi also extends through service in our communities. Our Chapters support our National Philanthropy and also plan philanthropic events with their local organizations that have a meaningful impact to the local community.</p>
                 </section>
 
-                <section className="other-sub-container">
+                <section className="no-top-special-qualification-container">
                     <p className="has-text-centered">Fellowship</p>
                 </section>
 
@@ -89,7 +89,7 @@ export default function About() {
                 </section>
 
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" className="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
                     <a></a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>

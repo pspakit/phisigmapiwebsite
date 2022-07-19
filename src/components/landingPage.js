@@ -45,6 +45,10 @@ export default function Landing() {
                 <h1 className="has-text-centered">UNC’s Gender-Inclusive National Honor Fraternity</h1>
             </section>
 
+            <section className="special-container has-text-centered">
+                    <h4>Potential new members should visit the Recruitment page to learn more about this semester's recruitment!</h4>
+            </section>
+
             <div className="tripod-row">
                 <div className="tripod-col">
                     <img src="pictures/Scholarship.jpg" alt="Scholarship Image"/>
@@ -58,7 +62,7 @@ export default function Landing() {
             </div>
 
             <section className="footer-container">
-                <a href="https://www.instagram.com/phisigmapiunc/" className="fa fa-instagram"></a>
+                <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
                 <a></a>
                 <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                 <h1 className="has-text-centered">2022</h1>

@@ -47,10 +47,10 @@ export default function Recruitment() {
                         <p>You will have several opportunities over a two-week period to get to know current chapter members</p>
                     </div>
                     <div className="rectangular-column">
-                        <p>Potential new members (PNMs) must attend one weekday event and the Friday Social event each week to fulfill their attendance requirements</p>
+                        <p>Potential new members (PNMs) must attend one weekday event and the Friday social event each week to fulfill their attendance requirements</p>
                     </div>
                     <div className="rectangular-column">
-                        <p>Flexibility about attendance will be extended if personal circumstances or conflicts arise - just communicate with the Recruitment Advisors</p>
+                        <p>Flexibility about attendance will be extended if personal circumstances or conflicts arise - just communicate with the recruitment advisors</p>
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ export default function Recruitment() {
                 <section className="timeline">
                     <div className="time-container left">
                         <div className="content">
-                        <p>Connect with us on social media (@phisigmapiunc)</p>
+                        <p>Connect with us on social media (<a href="https://www.instagram.com/phisigmapiunc/">@phisigmapiunc</a>)</p>
                         </div>
                     </div>
                     <div className="time-container right">
@@ -133,8 +133,8 @@ export default function Recruitment() {
                 <section className="another-container has-text-centered">
                     <p>Must have a 3.0 UNC GPA</p>
                     <p>Must have been a UNC student for at least one semester and have at least 3 semesters left at UNC</p>
-                    <p>Must be available for Initiate Chapter meetings on Wednesdays from 6:00 - 7:30 PM</p>
-                    <p>Must fulfill the recruitment attendance requirements (be present at 1 weekday event and the Friday event each week) in addition to completing the fact sheet application and submitting it on time to the Recruitment Advisors</p>
+                    <p>Must be available for initiate chapter meetings on Wednesdays from 6:00 - 7:30 PM</p>
+                    <p>Must fulfill the recruitment attendance requirements (be present at 1 weekday event and the Friday event each week) in addition to completing the fact sheet application and submitting it on time to the recruitment advisors</p>
                 </section>
 
                 <section className="special-container">
@@ -178,11 +178,11 @@ export default function Recruitment() {
                 </section>
 
                 <section className="another-container has-text-centered">
-                    <p>You will complete a six-week Initiate period under the guidance of the Initiate Advisors</p>
-                    <p>The Initiate Period includes a pinning ceremony, attending weekly meetings on Wednesdays, receiving a Big Sibling and Family, meeting one-on-one with chapter members, going on a bonding retreat, planning chapter events, and more</p>
-                    <p>The initiate period will conclude with the Ritual in which you will be inducted as a full member if all Initiation requirements are met</p>
-                    <p>For sake of transparency, the total cost of initiate finances is $270, which can be paid in full at the first Initiate chapter meeting or in installments over the Initiate period</p>
-                    <p>Semester membership dues help us maintain our status as a National organization and greatly assist our leadership team with the planning and execution of fun events and rewarding experiences</p>
+                    <p>You will complete a six-week initiate period under the guidance of the initiate advisors</p>
+                    <p>The initiate period includes a pinning ceremony, attending weekly meetings on Wednesdays, receiving a big sibling and family, meeting one-on-one with chapter members, going on a bonding retreat, planning chapter events, and more</p>
+                    <p>The initiate period will conclude with the ritual in which you will be inducted as a full member if all initiation requirements are met</p>
+                    <p>For sake of transparency, the total cost of initiate finances is $270, which can be paid in full at the first initiate chapter meeting or in installments over the initiate period</p>
+                    <p>Semester membership dues help us maintain our status as a national organization and greatly assist our leadership team with the planning and execution of fun events and rewarding experiences</p>
                     <p>Some dues relief and financial assistance can be offered to initiates each semester</p>
                 </section>
 
@@ -199,7 +199,7 @@ export default function Recruitment() {
                 </section>
 
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" className="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
                     <a></a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
