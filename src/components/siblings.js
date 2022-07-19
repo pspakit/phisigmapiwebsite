@@ -19,35 +19,36 @@ export default function Siblings() {
                     <h1 className="has-text-centered">Calendar</h1>
                 </section>
                 <section className="container">
-                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vSDPfHW7jD0rxx1z2NDevO2O4BylQcxQ0pqo75yH7mvY3NVkB4lpjAnuvT1IjLcDEM5A3UhHlbHcpAa/pub?embedded=true" scrolling="auto" width="100%" height="550"></iframe>
+                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQDOBJxmAEu6d-XfxMHYAYOn2rTXbB9r8STY5pCBnNXhnTwZqtGN56hatZXf8FmDA1v7vrn2HxjnM3y/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Attendance</h1>
                 </section>
-                <section className="box">
-                    <h1 className="has-text-centered"></h1>
+                <section className="container-attendance-iframe">
+                    <iframe src="https://phisigattendance.netlify.app/needAccount" scrolling="auto" width="100%" height="400px"></iframe>
+                </section>
+                <section className="email-container">
+                    <h4 className="has-text-centered"><a href="https://phisigattendance.netlify.app/needAccount" target="_blank">https://phisigattendance.netlify.app</a></h4>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Sibling Requirements</h1>
                 </section>
-                <section className="box">
-                    <h1 className="has-text-centered"></h1>
+
+                <section className="another-container has-text-centered">
+                    <p>1 Service Event</p>
+                    <p>1 Scholarship Event</p>
+                    <p>1 Weekday Recruitment Event (Each Week)</p>
+                    <p>Both Friday Recruitment Events</p>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Absences</h1>
                 </section>
-                <section className="box">
-                    <h1 className="has-text-centered"></h1>
+                <section className="another-container has-text-centered">
+                    <p>We want to extend our community and friendship to Carolina undergraduates looking to find their niche on campus</p>
+                    <p>Here are some of the things we would love to see in our new members...</p>
                 </section>
-                <section className="special-container">
-                    <h1 className="has-text-centered">Directory</h1>
-                </section>
-                <section className="box">
-                    <h1 className="has-text-centered"></h1>
-                </section>
-
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" className="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
                     <a></a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
