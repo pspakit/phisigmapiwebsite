@@ -6,7 +6,7 @@ export default function Siblings() {
             <div className="topnav">
                 <a href="/">
                     <div className="logo-image">
-                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.png"></img>
+                        <img src="pictures/PSP_Shield_4c.png"></img>
                     </div>
                 </a>
                 <a href="/about">About</a>
@@ -37,15 +37,31 @@ export default function Siblings() {
                 <section className="another-container has-text-centered">
                     <p>1 Service Event</p>
                     <p>1 Scholarship Event</p>
-                    <p>1 Weekday Recruitment Event (Each Week)</p>
+                    <p>2 Weekday Recruitment Events (Each Week)</p>
                     <p>Both Friday Recruitment Events</p>
+                    <p>Retreat</p>
+                    <p>Ritual</p>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Absences</h1>
                 </section>
-                <section className="another-container has-text-centered">
-                    <p>We want to extend our community and friendship to Carolina undergraduates looking to find their niche on campus</p>
-                    <p>Here are some of the things we would love to see in our new members...</p>
+                
+                <section className="no-space-container has-text-centered">
+                    <p>You are allowed 2 absense from chapter this semester! One can be with no questions asked, and you must fill out the absense form for any others.</p>
+                    <p>What counts as an excuse?</p>
+                </section>
+                <section className="container">
+                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTQYFvkkGNKEzLrxBTYWLyRyQKbxLNJntKy3TxIy2PIxY8AOSHJLXBeVUqgjvdddgYKS7cbiWGLlKHp/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
+                </section>
+                <section className="special-container">
+                    <h1 className="has-text-centered">Chap-Up Archive</h1>
+                </section>
+                <section className="email-container">
+                    <h4 className="has-text-centered">Follow this link to view past chap-up emails!</h4>
+                    <h4 className="has-text-centered"><a href="https://linktr.ee/chap_up_archive" target="_blank">https://linktr.ee/chap_up_archive</a></h4>
+                </section>
+                <section className="special-container">
+                    <h1 className="has-text-centered">Sibling Directory</h1>
                 </section>
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>

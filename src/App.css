@@ -134,6 +134,17 @@
   padding-bottom: 50px;
 }
 
+.no-space-container {
+  color: black;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+
 .special-qualification-container {
   color:#522874;
   font-size: 25px;
@@ -564,6 +575,70 @@
 
   .container-attendance-iframe {
     margin-bottom: -6px;
+  }
+
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 54px;
+    right: 15px;
+    border: 3px solid white;
+    z-index: 9;
+  }
+
+  .form-popup label {
+    font-size: 17px;
+    font-family: 'Montserrat';
+  }
+
+  .form-popup h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat';
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color:#eabe39;
+  }
+
+  .form-container input[type=text],
+  .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    font-family: 'Montserrat';
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+  }
+
+  .form-container input[type=text]:focus,
+  .form-container input[type=password]:focus {
+    background-color: white;
+    outline: none;
+  } 
+
+  .form-container .btn {
+    background-color: #522874;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    font-size: 13px;
+    font-family: 'Montserrat';
+  }
+
+  .form-container .cancel {
+    background-color: black;
+  }
+
+  .form-container .btn:hover {
+    opacity: 1;
   }
 
 

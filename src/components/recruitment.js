@@ -2,13 +2,12 @@ import { useNavigate } from "react-router-dom";
 
 export default function Recruitment() {
 
-    const navigate = useNavigate();
-    const handleClick = e => {
-         if (document.getElementById("SiblingCode").value === "pspak" || document.getElementById("SiblingCode").value === "PSPAK") {
-            navigate("/siblings")
-         } else {
-            alert("The sibling code you entered was incorrect. Try again!")
-         }
+    const openPop = o => {
+        document.getElementById("loginForm").style.display = "block";
+    }
+
+    const closePop = c => {
+        document.getElementById("loginForm").style.display = "none";
     }
 
     return (
@@ -16,17 +15,23 @@ export default function Recruitment() {
             <div className="topnav">
                 <a href="/">
                     <div className="logo-image">
-                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.png"></img>
+                        <img src="pictures/PSP_Shield_4c.png"></img>
                     </div>
                 </a>
                 <a href="/about">About</a>
                 <a className="active" href="/recruitment">Recruitment</a>
                 <a href="/gallery">Gallery</a>
+                <a onClick={openPop}>Siblings</a>
 
-                <div className="login-container">
-                    <form id="siblingPageForm">
-                        <input type="password" placeholder="Sibling Code" id="SiblingCode"></input>
-                        <button type="button" onClick={handleClick}>Sibling Page</button>
+                <div className="form-popup" id="loginForm">
+                    <form action="/siblings" className="form-container">
+                        <h1>Sibling Login</h1>
+                        <label name="email">Email</label>
+                        <input type="text" placeholder="Enter Email" name="email" required></input>
+                        <label name="password">Password</label>
+                        <input type="password" placeholder="Enter Password" name="password" required></input>
+                        <button type="submit" className="btn">Login</button>
+                        <button type="button" className="btn cancel" onClick={closePop}>Close</button>
                     </form>
                 </div>
                 
@@ -35,9 +40,17 @@ export default function Recruitment() {
                 <section className="special-container">
                     <h1 className="has-text-centered">Recruitment Timeline</h1>
                 </section>
-                <section className="recruitment-schedule-container">
-                    <h4 className="has-text-centered">[  FALL 2022 RECRUITMENT SCHEDULE COMING SOON!  ]</h4>
-                </section>
+                <div className="mission-row">
+                    <div className="mission-col">
+                        <img src="pictures/beta_omicron.jpg" alt="Beta Omicron Sign"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/recruitment_schedule.jpg" alt="Fall 2022 Recruitment Schedule"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/4_girls_with_sign.jpg" alt="PSPAK Sign"></img>
+                    </div>
+                </div>
                 <section className="special-container has-text-centered">
                     <h4>How many recruitment events do I need to attend?</h4>
                 </section>
@@ -47,22 +60,10 @@ export default function Recruitment() {
                         <p>You will have several opportunities over a two-week period to get to know current chapter members</p>
                     </div>
                     <div className="rectangular-column">
-                        <p>Potential new members (PNMs) must attend one weekday event and the Friday social event each week to fulfill their attendance requirements</p>
+                        <p>Potential new members (PNMs) <b>must attend one weekday event and the Friday social event each week</b> to fulfill their attendance requirements</p>
                     </div>
                     <div className="rectangular-column">
                         <p>Flexibility about attendance will be extended if personal circumstances or conflicts arise - just communicate with the recruitment advisors</p>
-                    </div>
-                </div>
-
-                <div className="mission-row">
-                    <div className="mission-col">
-                        <img src="pictures/beta_omicron.jpg" alt="Beta O's!"></img>
-                    </div>
-                    <div className="mission-col">
-                        <img src="pictures/basketballs.jpg" alt="Beta O's!"></img>
-                    </div>
-                    <div className="mission-col">
-                        <img src="pictures/4_girls_with_sign.jpg" alt="Beta O's!"></img>
                     </div>
                 </div>
 
@@ -102,7 +103,7 @@ export default function Recruitment() {
                     </div>
                     <div className="time-container right">
                         <div className="content">
-                        <p>Submit your fact sheet application to the recruitment advisors before the end of recruitment</p>
+                        <p>Submit your <a href="#fact-sheet">fact sheet application</a> to the recruitment advisors before the end of recruitment</p>
                         </div>
                     </div>
                 </section>
@@ -194,7 +195,7 @@ export default function Recruitment() {
                 <section className="special-container">
                     <h1 className="has-text-centered">Recruitment Materials</h1>
                 </section>
-                <section className="recruitment-schedule-container">
+                <section id="fact-sheet" className="recruitment-schedule-container">
                     <h4 className="has-text-centered">[  FALL 2022 RECRUITMENT FACT SHEET  ]</h4>
                 </section>
 

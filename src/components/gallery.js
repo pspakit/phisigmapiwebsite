@@ -2,13 +2,12 @@ import { useNavigate } from "react-router-dom";
 
 export default function Gallery() {
 
-    const navigate = useNavigate();
-    const handleClick = e => {
-         if (document.getElementById("SiblingCode").value === "pspak" || document.getElementById("SiblingCode").value === "PSPAK") {
-            navigate("/siblings")
-         } else {
-            alert("The sibling code you entered was incorrect. Try again!")
-         }
+    const openPop = o => {
+        document.getElementById("loginForm").style.display = "block";
+    }
+
+    const closePop = c => {
+        document.getElementById("loginForm").style.display = "none";
     }
 
     return (
@@ -16,17 +15,23 @@ export default function Gallery() {
             <div className="topnav">
                 <a href="/">
                     <div className="logo-image">
-                        <img src="https://phisigmapi.org/sites/default/files/2017-07/PSP_Shield_4c.png"></img>
+                        <img src="pictures/PSP_Shield_4c.png"></img>
                     </div>
                 </a>
                 <a href="/about">About</a>
                 <a href="/recruitment">Recruitment</a>
                 <a className="active" href="/gallery">Gallery</a>
+                <a onClick={openPop}>Siblings</a>
 
-                <div className="login-container">
-                    <form id="siblingPageForm">
-                        <input type="password" placeholder="Sibling Code" id="SiblingCode"></input>
-                        <button type="button" onClick={handleClick}>Sibling Page</button>
+                <div className="form-popup" id="loginForm">
+                    <form action="/siblings" className="form-container">
+                        <h1>Sibling Login</h1>
+                        <label name="email">Email</label>
+                        <input type="text" placeholder="Enter Email" name="email" required></input>
+                        <label name="password">Password</label>
+                        <input type="password" placeholder="Enter Password" name="password" required></input>
+                        <button type="submit" className="btn">Login</button>
+                        <button type="button" className="btn cancel" onClick={closePop}>Close</button>
                     </form>
                 </div>
                 
