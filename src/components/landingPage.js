@@ -1,4 +1,10 @@
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+
+// Firebase Stuff
+import { 
+  getAuth, 
+  signInWithEmailAndPassword } from 'firebase/auth'
 
 export default function Landing() {
 
@@ -8,6 +14,27 @@ export default function Landing() {
 
     const closePop = c => {
         document.getElementById("loginForm").style.display = "none";
+    }
+
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [uid, setUID] = useState('');
+
+    const nav = useNavigate();
+
+    const loginAction = (e) => {
+        e.preventDefault();
+        const authen = getAuth();
+        signInWithEmailAndPassword(authen, email, password)
+        .then((response) => {
+            setUID(response.user.uid);
+            nav('/siblings')
+            sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken)
+        })
+        .catch((error) => {
+            console.log(error);
+            alert("Bad Info!");
+        })
     }
    
     return (
@@ -25,19 +52,17 @@ export default function Landing() {
                 <a onClick={openPop}>Siblings</a>
 
                 <div className="form-popup" id="loginForm">
-                    <form action="/siblings" className="form-container">
+                    <form className="form-container">
                         <h1>Sibling Login</h1>
                         <label name="email">Email</label>
-                        <input type="text" placeholder="Enter Email" name="email" required></input>
+                        <input type="text" placeholder="Enter Email" onChange={(e) => setEmail(e.target.value)} name="email" required></input>
                         <label name="password">Password</label>
-                        <input type="password" placeholder="Enter Password" name="password" required></input>
-                        <button type="submit" className="btn">Login</button>
+                        <input type="password" placeholder="Enter Password" onChange={(e) => setPassword(e.target.value)} name="password" required></input>
+                        <button type="submit" onClick={loginAction} className="btn">Login</button>
                         <button type="button" className="btn cancel" onClick={closePop}>Close</button>
                     </form>
                 </div>
             </div>
-
-            
 
             <div className="top-image">
                 <div className="top-image-text">
