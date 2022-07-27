@@ -1,10 +1,12 @@
 // css
 import './App.css';
 import '../node_modules/bulma/css/bulma.css';
-//test
 
 // react-router-dom imports
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route, useNavigate} from 'react-router-dom';
+
+// IMPORTANT
+import { app } from './utils/firebase';
 
 // Component Imports
 import Landing from './components/landingPage';
@@ -15,7 +17,6 @@ import Siblings from './components/siblings';
 
 
 function App() {
-  
 
   return (
 
