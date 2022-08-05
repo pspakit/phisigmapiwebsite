@@ -4,6 +4,7 @@ import '../node_modules/bulma/css/bulma.css';
 
 // react-router-dom imports
 import { Routes, Route, useNavigate} from 'react-router-dom';
+import { Navigate } from "react-router-dom";
 
 // IMPORTANT
 import { app } from './utils/firebase';
@@ -14,6 +15,12 @@ import About from './components/about';
 import Recruitment from './components/recruitment';
 import Gallery from './components/gallery';
 import Siblings from './components/siblings';
+
+function RequireAuth({ children }) {
+  const auth1 = sessionStorage.getItem('Auth Token');
+  console.log('token: ', auth1);
+  return auth1 !== null ? children : <Navigate to='/' replace />;
+}
 
 
 function App() {
@@ -44,7 +51,11 @@ function App() {
 
       <Route 
         exact path='/siblings'
-        element={<Siblings />}
+        element={
+          <RequireAuth>
+            <Siblings />
+          </RequireAuth>
+        }
       />
 
     </Routes>

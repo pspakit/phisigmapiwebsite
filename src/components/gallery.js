@@ -28,8 +28,8 @@ export default function Gallery() {
         signInWithEmailAndPassword(authen, email, password)
         .then((response) => {
             setUID(response.user.uid);
-            nav('/siblings')
             sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken)
+            nav('/siblings')
         })
         .catch((error) => {
             console.log(error);

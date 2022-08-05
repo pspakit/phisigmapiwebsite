@@ -1,3 +1,46 @@
+# Phi Sigma Pi National Honor Fraternity - Alpha Kappa Chapter - The University of North Carolina at Chapel Hill - Official Website
+
+## Website Summary
+
+The official website for the Alpha Kappa Chapter of Phi Sigma Pi at The University of North Carolina at Chapel Hill! The site was created to show potential new members exactly what our organization is all about (recruitment page), while also providing current siblings with an easy-to-reach page with important information (siblings page). 
+
+## Getting Started
+
+1. Clone this repo
+2. Run npm install to install all of the required dependencies (view the package.json file for a full list of dependencies)
+
+## Running Local Server
+
+Simply run npm start to launch a local instance of the website!
+
+## Firebase
+
+This site makes use of the pspak attendance app's firebase database. For more information about this functionality, please visit the PSP Attendance Website ReadMe file (login information found on Phi Sig IT Chair document)!
+
+If a new database was created for the PSP Attendance Website, then you must change the firebase configuration code found in firebase.js. For more information... reference step 3 under "Setting up Firebase" in the PSP Attendance Website ReadMe.
+
+## Deployment
+
+This site is deployed using Netlify. Login with the Phi Sigma Pi IT Chair credentials to view the deployment and make any necessary changes!
+
+## Technologies
+
+This project makes use of the following technologies. If you need to make changes, please familiarize yourself with their respected documentary first. 
+
+* React
+* React-Router-Dom
+* Firebase Auth
+* Firebase Real Time Database
+
+## Contributing
+
+When making changes to the codebase, it is very important to provide comments along with your code. This project is design to be passed down to new technology chairs in Phi Sigma Pi and the codebase will need to be understood by a lot of different people. If you make a significant change, please add your name to the author section of the README.md. You deserve the recognition and your contact will be valuable if there are issues down the road.
+
+## Authors
+
+Brandon Hall, <brandon@hokiehalls.com>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

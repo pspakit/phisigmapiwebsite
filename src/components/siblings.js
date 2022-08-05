@@ -1,5 +1,13 @@
+//import { useNavigate } from "react-router-dom";
 
 export default function Siblings() {
+
+    //const nav = useNavigate();
+
+    /*const auth1 = sessionStorage.getItem('Auth Token');
+    if (auth1 === null) {
+        nav('/')
+    }*/
 
     return (
         <div id="top">
@@ -37,10 +45,9 @@ export default function Siblings() {
                 <section className="another-container has-text-centered">
                     <p>1 Service Event</p>
                     <p>1 Scholarship Event</p>
-                    <p>2 Weekday Recruitment Events (Each Week)</p>
-                    <p>Both Friday Recruitment Events</p>
-                    <p>Retreat</p>
-                    <p>Ritual</p>
+                    <p>1 Weekday Recruitment Event (Each Week)</p>
+                    <p>Both Friday Recruitment Events (9/16, 9/23)</p>
+                    <p>Ritual (11/12)</p>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Absences</h1>
@@ -62,6 +69,9 @@ export default function Siblings() {
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Sibling Directory</h1>
+                </section>
+                <section className="container">
+                    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vToDOTv7G0WIVzK6zzTpE3SgG3RusO90FmMhFiU61UEYjAvUgeu_KKUe3XbF0Vw6-eR-ybMiKDgLOu6/pubhtml?gid=1905347970&amp;single=true&amp;widget=true&amp;headers=false" scrolling="auto" width="100%" height="700"></iframe>
                 </section>
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
