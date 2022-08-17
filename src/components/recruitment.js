@@ -105,12 +105,12 @@ export default function Recruitment() {
                 <section className="timeline">
                     <div className="time-container left">
                         <div className="content">
-                        <p>Connect with us on social media (<a href="https://www.instagram.com/phisigmapiunc/">@phisigmapiunc</a>)</p>
+                        <p>Connect with us on social media (<a href="https://www.instagram.com/phisigmapiunc/" target="_blank">@phisigmapiunc</a>)</p>
                         </div>
                     </div>
                     <div className="time-container right">
                         <div className="content">
-                        <p>RSVP for recruitment events through this interest form (hyperlink)</p>
+                        <p>RSVP for recruitment events through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9AJzHUxm5TS68_eExA4rP6WqyHBZID1-LamKjsSZnssSHEg/viewform?usp=sf_link" target="_blank">interest form</a></p>
                         </div>
                     </div>
                     <div className="time-container left">
@@ -130,7 +130,7 @@ export default function Recruitment() {
                     </div>
                     <div className="time-container right">
                         <div className="content">
-                        <p>Submit your <a href="#fact-sheet">fact sheet application</a> to the recruitment advisors before the end of recruitment</p>
+                        <p>Submit your <a href="https://docs.google.com/document/d/1YHrglFb6iwFfEx0nkamgC3Z-mB-Gv4-RuXc01gDZI2A/edit?usp=sharing" target="_blank">fact sheet application</a> to the recruitment advisors before the end of recruitment</p>
                         </div>
                     </div>
                 </section>
@@ -162,16 +162,12 @@ export default function Recruitment() {
                     <p>Must have a 3.0 UNC GPA</p>
                     <p>Must have been a UNC student for at least one semester and have at least 3 semesters left at UNC</p>
                     <p>Must be available for initiate chapter meetings on Wednesdays from 6:00 - 7:30 PM</p>
-                    <p>Must fulfill the recruitment attendance requirements (be present at 1 weekday event and the Friday event each week) in addition to completing the fact sheet application and submitting it on time to the recruitment advisors</p>
+                    <p>Must fulfill the recruitment attendance requirements (be present at 1 weekday event and the Friday event each week)</p>
+                    <p>Must complete the fact sheet application and submit it on time to the recruitment advisors</p>
                 </section>
 
                 <section className="special-container">
                     <h4 className="has-text-centered">What are we looking for in our new members?</h4>
-                </section>
-
-                <section className="another-container has-text-centered">
-                    <p>We want to extend our community and friendship to Carolina undergraduates looking to find their niche on campus</p>
-                    <p>Here are some of the things we would love to see in our new members...</p>
                 </section>
 
                 <div className="rectangular-column-container">
@@ -209,7 +205,19 @@ export default function Recruitment() {
                     <p>You will complete a six-week initiate period under the guidance of the initiate advisors</p>
                     <p>The initiate period includes a pinning ceremony, attending weekly meetings on Wednesdays, receiving a big sibling and family, meeting one-on-one with chapter members, going on a bonding retreat, planning chapter events, and more</p>
                     <p>The initiate period will conclude with the ritual in which you will be inducted as a full member if all initiation requirements are met</p>
-                    <p>For sake of transparency, the total cost of initiate finances is $270, which can be paid in full at the first initiate chapter meeting or in installments over the initiate period</p>
+                </section>
+
+                <section className="special-container">
+                    <h4 className="has-text-centered">What about the cost of joining?</h4>
+                </section>
+
+                <section className="special-qualification-container">
+                    <p className="has-text-centered">Total: $276</p>
+                    <p className="has-text-centered">$87 Local Dues  |  $84 National Dues  |  $105 One-Time Initiation Fee</p>
+                </section>
+
+                <section className="another-container has-text-centered">
+                    <p>For sake of transparency, the total cost of initiate finances is $276, which can be paid in full at the first initiate chapter meeting or in installments over the initiate period</p>
                     <p>Semester membership dues help us maintain our status as a national organization and greatly assist our leadership team with the planning and execution of fun events and rewarding experiences</p>
                     <p>Some dues relief and financial assistance can be offered to initiates each semester</p>
                 </section>
@@ -222,8 +230,17 @@ export default function Recruitment() {
                 <section className="special-container">
                     <h1 className="has-text-centered">Recruitment Materials</h1>
                 </section>
-                <section id="fact-sheet" className="recruitment-schedule-container">
-                    <h4 className="has-text-centered">[  FALL 2022 RECRUITMENT FACT SHEET  ]</h4>
+
+                <section className="container">
+                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vRCXcv7XMn40ralBN1kLYWxhK-AEyCTaeofYreB5-45H8CkOcmt-HmqvN4SX7OtXjJ_f18t63ZnUjWG/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
+                </section>
+
+                <section className="email-container">
+                    <h4 className="has-text-centered"><a href="https://docs.google.com/document/d/1YHrglFb6iwFfEx0nkamgC3Z-mB-Gv4-RuXc01gDZI2A/edit?usp=sharing" target="_blank">Fall Recruitment 2022 - Fact Sheet</a></h4>
+                </section>
+
+                <section className="container">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9AJzHUxm5TS68_eExA4rP6WqyHBZID1-LamKjsSZnssSHEg/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </section>
 
                 <section className="footer-container">

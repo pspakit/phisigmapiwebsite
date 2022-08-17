@@ -33,10 +33,10 @@ export default function Siblings() {
                     <h1 className="has-text-centered">Attendance</h1>
                 </section>
                 <section className="container-attendance-iframe">
-                    <iframe src="https://phisigattendance.netlify.app/needAccount" scrolling="auto" width="100%" height="400px"></iframe>
+                    <iframe src="https://www.pspakattendance.com" scrolling="auto" width="100%" height="400px"></iframe>
                 </section>
                 <section className="email-container">
-                    <h4 className="has-text-centered"><a href="https://phisigattendance.netlify.app/needAccount" target="_blank">https://phisigattendance.netlify.app</a></h4>
+                    <h4 className="has-text-centered"><a href="https://www.pspakattendance.com" target="_blank">www.pspakattendance.com</a></h4>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Sibling Requirements</h1>

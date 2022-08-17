@@ -50,7 +50,7 @@
   padding-bottom: 20px;
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
 }
 
 .topnav {
@@ -90,19 +90,19 @@
 .box h2 {
   color: black;
   font-size: 30px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
 }
 
 .box h3 {
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
 }
 
 .box p {
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
 }
 
 .spacing-container {
@@ -112,7 +112,7 @@
 .container p {
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
@@ -122,7 +122,7 @@
 .another-container p {
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   padding-left: 100px;
   padding-right: 100px;
   margin-top: 10px;
@@ -137,7 +137,7 @@
 .no-space-container {
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   padding-left: 100px;
   padding-right: 100px;
   margin-top: 10px;
@@ -148,14 +148,16 @@
 .special-qualification-container {
   color:#522874;
   font-size: 25px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .no-top-special-qualification-container {
   color:#522874;
   font-size: 25px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
 }
 
 .qualification-container p {
@@ -165,7 +167,7 @@
 .qualification-container {
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 100px;
@@ -180,7 +182,7 @@
 .sub-container p {
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
@@ -189,7 +191,7 @@
 .other-sub-container p {
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -257,13 +259,9 @@
   text-align: center;
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   background-color: #eabe39;
   display: table-cell;
-}
-
-.rectangular-column:hover {
-  color: white;
 }
 
 @media screen and (max-width: 600px) {
@@ -283,7 +281,7 @@
 .column p {
   color: black;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   text-align: center;
 }
 
@@ -567,6 +565,7 @@
 
   .column img:hover {
     border: 3px solid #eabe39;
+    transform: scale(1.5);
   }
 
   .row {
