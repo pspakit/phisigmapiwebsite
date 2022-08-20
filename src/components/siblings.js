@@ -14,7 +14,7 @@ export default function Siblings() {
             <div className="topnav">
                 <a href="/">
                     <div className="logo-image">
-                        <img src="pictures/PSP_Shield_4c.png"></img>
+                        <img src="pictures/PSP_Shield_4c.png" alt="PSP Shield"></img>
                     </div>
                 </a>
                 <a href="/about">About</a>
@@ -36,7 +36,7 @@ export default function Siblings() {
                     <iframe src="https://www.pspakattendance.com" scrolling="auto" width="100%" height="400px"></iframe>
                 </section>
                 <section className="email-container">
-                    <h4 className="has-text-centered"><a href="https://www.pspakattendance.com" target="_blank">www.pspakattendance.com</a></h4>
+                    <h4 className="has-text-centered"><a href="https://www.pspakattendance.com" target="_blank" rel="noreferrer">www.pspakattendance.com</a></h4>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Sibling Requirements</h1>
@@ -66,7 +66,7 @@ export default function Siblings() {
                 </section>
                 <section className="email-container">
                     <h4 className="has-text-centered">Follow this link to view past chap-up emails!</h4>
-                    <h4 className="has-text-centered"><a href="https://linktr.ee/chap_up_archive" target="_blank">https://linktr.ee/chap_up_archive</a></h4>
+                    <h4 className="has-text-centered"><a href="https://linktr.ee/chap_up_archive" target="_blank" rel="noreferrer">https://linktr.ee/chap_up_archive</a></h4>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Sibling Directory</h1>
@@ -75,11 +75,9 @@ export default function Siblings() {
                     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vToDOTv7G0WIVzK6zzTpE3SgG3RusO90FmMhFiU61UEYjAvUgeu_KKUe3XbF0Vw6-eR-ybMiKDgLOu6/pubhtml?gid=1905347970&amp;single=true&amp;widget=true&amp;headers=false" scrolling="auto" width="100%" height="700"></iframe>
                 </section>
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
-                    <a></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"></a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
-                    <a></a>
                     <a href="#top" className="fa fa-arrow-up"></a>
                 </section>
             </div>
