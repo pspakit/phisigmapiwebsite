@@ -18,7 +18,7 @@ export default function About() {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [uid, setUID] = useState('');
+    const [uid, setUID] = useState(''); 
 
     const nav = useNavigate();
 
@@ -162,25 +162,13 @@ export default function About() {
                 </div>
 
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
-                    <a href="#top" className="fa fa-arrow-up"></a>
+                    <a href="#top" className="fa fa-arrow-up"> </a>
                 </section>
             </div>
         </div>
     )
 
 }
-
-/*export default function About() {
-
-    const navigate = useNavigate();
-
-    return (
-        <div>
-            <h1>This is the about page</h1>
-            <button onClick={() => navigate('/')}>Go Home</button>
-        </div>
-    )
-} */
