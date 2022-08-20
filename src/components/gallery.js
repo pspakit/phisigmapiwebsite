@@ -18,7 +18,7 @@ export default function Gallery() {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [uid, setUID] = useState('');
+    //const [uid, setUID] = useState('');
 
     const nav = useNavigate();
 
@@ -27,7 +27,7 @@ export default function Gallery() {
         const authen = getAuth();
         signInWithEmailAndPassword(authen, email, password)
         .then((response) => {
-            setUID(response.user.uid);
+            //setUID(response.user.uid);
             sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken)
             nav('/siblings')
         })
@@ -48,7 +48,7 @@ export default function Gallery() {
                 <a href="/about">About</a>
                 <a href="/recruitment">Recruitment</a>
                 <a className="active" href="/gallery">Gallery</a>
-                <a onClick={openPop}>Siblings</a>
+                <a href="#top" onClick={openPop}>Siblings</a>
 
                 <div className="form-popup" id="loginForm">
                     <form className="form-container">
@@ -163,10 +163,10 @@ export default function Gallery() {
                 </div>
 
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
-                    <a href="#top" className="fa fa-arrow-up"></a>
+                    <a href="#top" className="fa fa-arrow-up"> </a>
                 </section>
 
             </div>
