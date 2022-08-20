@@ -42,7 +42,7 @@ export default function Recruitment() {
             <div className="topnav">
                 <a href="/">
                     <div className="logo-image">
-                        <img src="pictures/PSP_Shield_4c.png"></img>
+                        <img src="pictures/PSP_Shield_4c.png" alt="PSP Shield"></img>
                     </div>
                 </a>
                 <a href="/about">About</a>
@@ -105,12 +105,12 @@ export default function Recruitment() {
                 <section className="timeline">
                     <div className="time-container left">
                         <div className="content">
-                        <p>Connect with us on social media (<a href="https://www.instagram.com/phisigmapiunc/" target="_blank">@phisigmapiunc</a>)</p>
+                        <p>Connect with us on social media (<a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer">@phisigmapiunc</a>)</p>
                         </div>
                     </div>
                     <div className="time-container right">
                         <div className="content">
-                        <p>RSVP for recruitment events through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9AJzHUxm5TS68_eExA4rP6WqyHBZID1-LamKjsSZnssSHEg/viewform?usp=sf_link" target="_blank">interest form</a></p>
+                        <p>RSVP for recruitment events through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9AJzHUxm5TS68_eExA4rP6WqyHBZID1-LamKjsSZnssSHEg/viewform?usp=sf_link" target="_blank" rel="noreferrer">interest form</a></p>
                         </div>
                     </div>
                     <div className="time-container left">
@@ -130,7 +130,7 @@ export default function Recruitment() {
                     </div>
                     <div className="time-container right">
                         <div className="content">
-                        <p>Submit your <a href="https://docs.google.com/document/d/1YHrglFb6iwFfEx0nkamgC3Z-mB-Gv4-RuXc01gDZI2A/edit?usp=sharing" target="_blank">fact sheet application</a> to the recruitment advisors before the end of recruitment</p>
+                        <p>Submit your <a href="https://docs.google.com/document/d/1YHrglFb6iwFfEx0nkamgC3Z-mB-Gv4-RuXc01gDZI2A/edit?usp=sharing" target="_blank" rel="noreferrer">fact sheet application</a> to the recruitment advisors before the end of recruitment</p>
                         </div>
                     </div>
                 </section>
@@ -236,7 +236,7 @@ export default function Recruitment() {
                 </section>
 
                 <section className="email-container">
-                    <h4 className="has-text-centered"><a href="https://docs.google.com/document/d/1YHrglFb6iwFfEx0nkamgC3Z-mB-Gv4-RuXc01gDZI2A/edit?usp=sharing" target="_blank">Fall Recruitment 2022 - Fact Sheet</a></h4>
+                    <h4 className="has-text-centered"><a href="https://docs.google.com/document/d/1YHrglFb6iwFfEx0nkamgC3Z-mB-Gv4-RuXc01gDZI2A/edit?usp=sharing" target="_blank" rel="noreferrer">Fall Recruitment 2022 - Fact Sheet</a></h4>
                 </section>
 
                 <section className="container">
@@ -244,11 +244,9 @@ export default function Recruitment() {
                 </section>
 
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
-                    <a></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"></a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
-                    <a></a>
                     <a href="#top" className="fa fa-arrow-up"></a>
                 </section>
             </div>
