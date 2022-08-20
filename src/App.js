@@ -18,7 +18,6 @@ import Siblings from './components/siblings';
 
 function RequireAuth({ children }) {
   const auth1 = sessionStorage.getItem('Auth Token');
-  console.log('token: ', auth1);
   return auth1 !== null ? children : <Navigate to='/' replace />;
 }
 

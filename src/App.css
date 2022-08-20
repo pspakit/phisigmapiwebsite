@@ -515,6 +515,22 @@
     padding: 0;
   }
 
+  .mission-row1 {
+    margin-bottom: -6px;
+  }
+
+  .mission-row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .mission-col1 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+
   .mission-row {
     margin-bottom: -6px;
   }

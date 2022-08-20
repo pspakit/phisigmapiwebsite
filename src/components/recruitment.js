@@ -240,7 +240,7 @@ export default function Recruitment() {
                 </section>
 
                 <section className="container">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9AJzHUxm5TS68_eExA4rP6WqyHBZID1-LamKjsSZnssSHEg/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9AJzHUxm5TS68_eExA4rP6WqyHBZID1-LamKjsSZnssSHEg/viewform?embedded=true" width="100%" height="700">Loading…</iframe>
                 </section>
 
                 <section className="footer-container">
