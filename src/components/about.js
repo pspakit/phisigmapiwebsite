@@ -18,7 +18,7 @@ export default function About() {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [uid, setUID] = useState(''); 
+    //const [uid, setUID] = useState(''); 
 
     const nav = useNavigate();
 
@@ -27,7 +27,7 @@ export default function About() {
         const authen = getAuth();
         signInWithEmailAndPassword(authen, email, password)
         .then((response) => {
-            setUID(response.user.uid);
+            //setUID(response.user.uid);
             sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken)
             nav('/siblings')
         })
@@ -48,7 +48,7 @@ export default function About() {
                 <a className="active" href="/about">About</a>
                 <a href="/recruitment">Recruitment</a>
                 <a href="/gallery">Gallery</a>
-                <a onClick={openPop}>Siblings</a>
+                <a href="#top" onClick={openPop}>Siblings</a>
 
                 <div className="form-popup" id="loginForm">
                     <form className="form-container">
