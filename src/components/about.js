@@ -42,7 +42,7 @@ export default function About() {
             <div className="topnav">
                 <a href="/">
                     <div className="logo-image">
-                        <img src="pictures/PSP_Shield_4c.png"></img>
+                        <img src="pictures/PSP_Shield_4c.png" alt="PSP Shield"></img>
                     </div>
                 </a>
                 <a className="active" href="/about">About</a>
@@ -84,7 +84,7 @@ export default function About() {
                         <img src="pictures/shirts.jpg" alt="Phi Sig Shirts"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/arboretum.jpg" alt="Arboretum Image"></img>
+                        <img src="pictures/arboretum.jpg" alt="Arboretum"></img>
                     </div>
                 </div>
                 
@@ -118,7 +118,7 @@ export default function About() {
 
                 <section className="email-container">
                     <h4 className="has-text-centered">For more information, visit:</h4>
-                    <h4 className="has-text-centered"><a href="https://phisigmapi.org/" target="_blank">https://phisigmapi.org/</a></h4>
+                    <h4 className="has-text-centered"><a href="https://phisigmapi.org/" target="_blank" rel="noreferrer">https://phisigmapi.org/</a></h4>
                 </section>
 
                 <section className="special-container">
@@ -162,11 +162,9 @@ export default function About() {
                 </div>
 
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
-                    <a></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"></a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
-                    <a></a>
                     <a href="#top" className="fa fa-arrow-up"></a>
                 </section>
             </div>

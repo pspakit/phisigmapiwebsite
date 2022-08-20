@@ -3,11 +3,11 @@ import './App.css';
 import '../node_modules/bulma/css/bulma.css';
 
 // react-router-dom imports
-import { Routes, Route, useNavigate} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Navigate } from "react-router-dom";
 
 // IMPORTANT
-import { app } from './utils/firebase';
+import { app } from './utils/firebase'; // eslint-disable-line
 
 // Component Imports
 import Landing from './components/landingPage';
