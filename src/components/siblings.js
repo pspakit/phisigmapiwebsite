@@ -27,13 +27,13 @@ export default function Siblings() {
                     <h1 className="has-text-centered">Calendar</h1>
                 </section>
                 <section className="container">
-                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQDOBJxmAEu6d-XfxMHYAYOn2rTXbB9r8STY5pCBnNXhnTwZqtGN56hatZXf8FmDA1v7vrn2HxjnM3y/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
+                    <iframe title="Fall 2022 Calendar" src="https://docs.google.com/document/d/e/2PACX-1vQDOBJxmAEu6d-XfxMHYAYOn2rTXbB9r8STY5pCBnNXhnTwZqtGN56hatZXf8FmDA1v7vrn2HxjnM3y/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Attendance</h1>
                 </section>
                 <section className="container-attendance-iframe">
-                    <iframe src="https://www.pspakattendance.com" scrolling="auto" width="100%" height="400px"></iframe>
+                    <iframe title="PSP Attendance Site" src="https://www.pspakattendance.com" scrolling="auto" width="100%" height="400px"></iframe>
                 </section>
                 <section className="email-container">
                     <h4 className="has-text-centered"><a href="https://www.pspakattendance.com" target="_blank" rel="noreferrer">www.pspakattendance.com</a></h4>
@@ -59,7 +59,7 @@ export default function Siblings() {
                     <p>What counts as an excuse?</p>
                 </section>
                 <section className="container">
-                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTQYFvkkGNKEzLrxBTYWLyRyQKbxLNJntKy3TxIy2PIxY8AOSHJLXBeVUqgjvdddgYKS7cbiWGLlKHp/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
+                    <iframe title="Excuse Document" src="https://docs.google.com/document/d/e/2PACX-1vTQYFvkkGNKEzLrxBTYWLyRyQKbxLNJntKy3TxIy2PIxY8AOSHJLXBeVUqgjvdddgYKS7cbiWGLlKHp/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Chap-Up Archive</h1>
@@ -72,13 +72,13 @@ export default function Siblings() {
                     <h1 className="has-text-centered">Sibling Directory</h1>
                 </section>
                 <section className="container">
-                    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vToDOTv7G0WIVzK6zzTpE3SgG3RusO90FmMhFiU61UEYjAvUgeu_KKUe3XbF0Vw6-eR-ybMiKDgLOu6/pubhtml?gid=1905347970&amp;single=true&amp;widget=true&amp;headers=false" scrolling="auto" width="100%" height="700"></iframe>
+                    <iframe title="Sibling Directory" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vToDOTv7G0WIVzK6zzTpE3SgG3RusO90FmMhFiU61UEYjAvUgeu_KKUe3XbF0Vw6-eR-ybMiKDgLOu6/pubhtml?gid=1905347970&amp;single=true&amp;widget=true&amp;headers=false" scrolling="auto" width="100%" height="700"></iframe>
                 </section>
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
-                    <a href="#top" className="fa fa-arrow-up"></a>
+                    <a href="#top" className="fa fa-arrow-up"> </a>
                 </section>
             </div>
         </div>

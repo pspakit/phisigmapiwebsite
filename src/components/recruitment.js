@@ -18,7 +18,7 @@ export default function Recruitment() {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [uid, setUID] = useState('');
+    //const [uid, setUID] = useState('');
 
     const nav = useNavigate();
 
@@ -27,7 +27,7 @@ export default function Recruitment() {
         const authen = getAuth();
         signInWithEmailAndPassword(authen, email, password)
         .then((response) => {
-            setUID(response.user.uid);
+            //setUID(response.user.uid);
             sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken)
             nav('/siblings')
         })
@@ -48,7 +48,7 @@ export default function Recruitment() {
                 <a href="/about">About</a>
                 <a className="active" href="/recruitment">Recruitment</a>
                 <a href="/gallery">Gallery</a>
-                <a onClick={openPop}>Siblings</a>
+                <a href="#top" onClick={openPop}>Siblings</a>
 
                 <div className="form-popup" id="loginForm">
                     <form className="form-container">
@@ -232,7 +232,7 @@ export default function Recruitment() {
                 </section>
 
                 <section className="container">
-                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vRCXcv7XMn40ralBN1kLYWxhK-AEyCTaeofYreB5-45H8CkOcmt-HmqvN4SX7OtXjJ_f18t63ZnUjWG/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
+                    <iframe title="Fall 2022 Recruitment Fact Sheet" src="https://docs.google.com/document/d/e/2PACX-1vRCXcv7XMn40ralBN1kLYWxhK-AEyCTaeofYreB5-45H8CkOcmt-HmqvN4SX7OtXjJ_f18t63ZnUjWG/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
                 </section>
 
                 <section className="email-container">
@@ -240,14 +240,14 @@ export default function Recruitment() {
                 </section>
 
                 <section className="container">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9AJzHUxm5TS68_eExA4rP6WqyHBZID1-LamKjsSZnssSHEg/viewform?embedded=true" width="100%" height="700">Loading…</iframe>
+                    <iframe title="Fall 2022 Recruitment Interest Form" src="https://docs.google.com/forms/d/e/1FAIpQLSf9AJzHUxm5TS68_eExA4rP6WqyHBZID1-LamKjsSZnssSHEg/viewform?embedded=true" width="100%" height="700">Loading…</iframe>
                 </section>
 
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2022</h1>
-                    <a href="#top" className="fa fa-arrow-up"></a>
+                    <a href="#top" className="fa fa-arrow-up"> </a>
                 </section>
             </div>
         </div>
