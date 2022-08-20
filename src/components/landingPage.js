@@ -43,7 +43,7 @@ export default function Landing() {
             <div className="topnav">
                 <a className="active" href="/">
                     <div className="logo-image">
-                        <img src="pictures/PSP_Shield_4c.png"></img>
+                        <img src="pictures/PSP_Shield_4c.png" alt="PSP Shield"></img>
                     </div>
                 </a>
                 <a href="/about">About</a>
@@ -81,13 +81,13 @@ export default function Landing() {
 
             <div className="tripod-row">
                 <div className="tripod-col">
-                    <img src="pictures/Scholarship.jpg" alt="Scholarship Image"/>
+                    <img src="pictures/Scholarship.jpg" alt="Scholarship"/>
                 </div>
                 <div className="tripod-col">
-                    <img src="pictures/Leadership.jpg" alt="Leadership Image"></img>
+                    <img src="pictures/Leadership.jpg" alt="Leadership"></img>
                 </div>
                 <div className="tripod-col">
-                    <img src="pictures/fellowship.jpg" alt="Fellowship Image"></img>
+                    <img src="pictures/fellowship.jpg" alt="Fellowship"></img>
                 </div>
             </div>
 
@@ -96,11 +96,9 @@ export default function Landing() {
             </section>
 
             <section className="footer-container">
-                <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" className="fa fa-instagram"></a>
-                <a></a>
+                <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"></a>
                 <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                 <h1 className="has-text-centered">2022</h1>
-                <a></a>
                 <a href="#top" className="fa fa-arrow-up"></a>
             </section>
         </div>
