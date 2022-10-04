@@ -14,7 +14,8 @@ import Landing from './components/landingPage';
 import About from './components/about';
 import Recruitment from './components/recruitment';
 import Gallery from './components/gallery';
-import Siblings from './components/siblings';
+import Siblings from './components/siblings'
+import Payment from './components/payment';
 
 function RequireAuth({ children }) {
   const auth1 = sessionStorage.getItem('Auth Token');
@@ -46,6 +47,11 @@ function App() {
       <Route 
         exact path='/gallery'
         element={<Gallery />}
+      />
+
+      <Route 
+        exact path='/payment'
+        element={<Payment />}
       />
 
       <Route 

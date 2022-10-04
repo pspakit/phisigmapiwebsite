@@ -48,6 +48,7 @@ export default function Recruitment() {
                 <a href="/about">About</a>
                 <a className="active" href="/recruitment">Recruitment</a>
                 <a href="/gallery">Gallery</a>
+                <a href="/payment">Payment</a>
                 <a href="#top" onClick={openPop}>Siblings</a>
 
                 <div className="form-popup" id="loginForm">

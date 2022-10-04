@@ -48,6 +48,7 @@ export default function About() {
                 <a className="active" href="/about">About</a>
                 <a href="/recruitment">Recruitment</a>
                 <a href="/gallery">Gallery</a>
+                <a href="/payment">Payment</a>
                 <a href="#top" onClick={openPop}>Siblings</a>
 
                 <div className="form-popup" id="loginForm">
@@ -78,7 +79,7 @@ export default function About() {
 
                 <div className="mission-row">
                     <div className="mission-col">
-                        <img src="pictures/soccer.jpg" alt="4 Girls With Sign"></img>
+                        <img src="pictures/soccer.jpg" alt="Intramural Soccer Team"></img>
                     </div>
                     <div className="mission-col">
                         <img src="pictures/shirts.jpg" alt="Phi Sig Shirts"></img>

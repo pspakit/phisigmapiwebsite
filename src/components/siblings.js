@@ -20,6 +20,7 @@ export default function Siblings() {
                 <a href="/about">About</a>
                 <a href="/recruitment">Recruitment</a>
                 <a href="/gallery">Gallery</a>
+                <a href="/payment">Payment</a>
                 <a className="active" href="/siblings">Siblings</a>
             </div>
             <div>
@@ -66,7 +67,7 @@ export default function Siblings() {
                 </section>
                 <section className="email-container">
                     <h4 className="has-text-centered">Follow this link to view past chap-up emails!</h4>
-                    <h4 className="has-text-centered"><a href="https://linktr.ee/chap_up_archive" target="_blank" rel="noreferrer">https://linktr.ee/chap_up_archive</a></h4>
+                    <h4 className="has-text-centered"><a href="https://linktr.ee/chap_up_archive" target="_blank" rel="noreferrer">https://linktr.ee</a></h4>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Sibling Directory</h1>
