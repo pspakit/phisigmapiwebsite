@@ -47,9 +47,9 @@ export default function Siblings() {
                     <p>1 Service Event</p>
                     <p>1 Scholarship Event</p>
                     <p>1 Weekday Recruitment Event (Each Week)</p>
-                    <p>Both Friday Recruitment Events (9/16, 9/23)</p>
-                    <p>Retreat (10/8)</p>
-                    <p>Ritual (11/12)</p>
+                    <p>Both Friday Recruitment Events</p>
+                    <p>Retreat</p>
+                    <p>Ritual</p>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Absences</h1>

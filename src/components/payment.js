@@ -81,27 +81,27 @@ export default function Payment() {
                     <h4>Payment Links</h4>
                 </section>
 
-                <div className="rectangular-column-container-1">
-                    <div className="rectangular-column-1">
-                        
-                        <h4 className="has-text-centered"><a href="https://buy.stripe.com/4gwaIJ7yG7Migww7st" target="_blank" rel="noreferrer">Initiate Payment Link</a></h4>
-                    </div>
-                    <div className="rectangular-column-1">
-                        
-                        <h4 className="has-text-centered"><a href="https://buy.stripe.com/8wM1896uCc2y6VWaEE" target="_blank" rel="noreferrer">Sibling Payment Link</a></h4>
-                    </div>
-                </div>
-
                 <section className="special-qualification-container">
                     <p className="has-text-centered">What should I do?</p>
                 </section>
 
                 <section className="another-container has-text-centered">
-                    <p>If you are an initiate, use the <b>initiate payment link</b> found above</p>
-                    <p>If you are a sibling, use the <b>sibling payment link</b> found above</p>
+                    <p>If you are an initiate, use the <b>initiate payment link</b> found below</p>
                 </section>
 
-                <section className="no-top-special-qualification-container">
+                <section className="link-container">
+                    <h4 className="has-text-centered"><a href="https://buy.stripe.com/4gwaIJ7yG7Migww7st" target="_blank" rel="noreferrer">Initiate Payment Link</a></h4>
+                </section>
+
+                <section className="another-container has-text-centered">
+                    <p>If you are a sibling, use the <b>sibling payment link</b> found below</p>
+                </section>
+
+                <section className="link-container">
+                    <h4 className="has-text-centered"><a href="https://buy.stripe.com/8wM1896uCc2y6VWaEE" target="_blank" rel="noreferrer">Sibling Payment Link</a></h4>
+                </section>
+
+                <section className="special-qualification-container">
                     <p className="has-text-centered">Once you have navigated to the appropriate stripe page...</p>
                 </section>
 

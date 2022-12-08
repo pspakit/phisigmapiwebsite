@@ -28,6 +28,31 @@
   font-family: 'Montserrat';
 }
 
+.link-container h4{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  
+}
+
+.link-container {
+  padding-bottom: 10px;
+}
+
+.link-container a {
+  padding: 20px;
+  color: #522874;
+  border: .5px solid white;
+  border-radius: 10px;
+  background-color: #eabe39;
+}
+
+.link-container a:hover {
+  color: white;
+}
+
 .email-container h4 {
   color: white;
   padding-left: 15px;
