@@ -73,7 +73,7 @@ export default function Siblings() {
                     <h1 className="has-text-centered">Sibling Directory</h1>
                 </section>
                 <section className="container">
-                    <iframe title="Sibling Directory" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vToDOTv7G0WIVzK6zzTpE3SgG3RusO90FmMhFiU61UEYjAvUgeu_KKUe3XbF0Vw6-eR-ybMiKDgLOu6/pubhtml?gid=1905347970&amp;single=true&amp;widget=true&amp;headers=false" scrolling="auto" width="100%" height="700"></iframe>
+                    <iframe title="Sibling Directory" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSlrxSOF2xTEOhMBwLTyBTp3NJyifYUHEUaehKe5Z94c_dJre6bdAkS-sywQo4V1C7Mgd8wt7NTHcxV/pubhtml?widget=true&amp;headers=false" scrolling="auto" width="100%" height="700"></iframe>
                 </section>
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"> </a>
