@@ -126,42 +126,6 @@ export default function About() {
                     <h1 className="has-text-centered">Leadership</h1>
                 </section>
 
-                {/* <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/Grace_Mayer.jpg" alt="President"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Justin_Baynes.jpg" alt="Vice President"></img>
-                    </div>
-                </div>
-
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/Riley_Carpinteri.jpg" alt="Parliamentarian"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Raymond_Adjah.jpg" alt="Recording Secretary"></img>
-                    </div>
-                </div>
-
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/Anna_Coley.jpg" alt="Initiate Advisor"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Andy_Estrella.jpg" alt="Initiate Advisor"></img>
-                    </div>
-                </div>
-
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/Kirti_Nimmala.jpg" alt="Treasurer"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Soumya_Gudipudi.jpg" alt="Historian"></img>
-                    </div>
-                </div> */}
-
                 <div className="mission-row1">
                     <div className="mission-col1">
                         <img src="pictures/Anna_Coley.png" alt="President"></img>
