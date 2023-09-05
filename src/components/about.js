@@ -126,7 +126,7 @@ export default function About() {
                     <h1 className="has-text-centered">Leadership</h1>
                 </section>
 
-                <div className="mission-row1">
+                {/* <div className="mission-row1">
                     <div className="mission-col1">
                         <img src="pictures/Grace_Mayer.jpg" alt="President"></img>
                     </div>
@@ -160,10 +160,106 @@ export default function About() {
                     <div className="mission-col1">
                         <img src="pictures/Soumya_Gudipudi.jpg" alt="Historian"></img>
                     </div>
+                </div> */}
+
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Anna_Coley.png" alt="President"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Josh_Shooman.png" alt="Vice President"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Payton_Emerick.png" alt="Parliamentarian"></img>
+                    </div>
                 </div>
 
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Ray_Adjah.png" alt="Recording Secretary"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Hannah_Vernile.png" alt="Initiate Advisor"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Ellie_Duwel.png" alt="Initiate Advisor"></img>
+                    </div>
+                </div>
+
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Skylar_Lewis_Exec.png" alt="Treasurer"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Ava_Reeder.png" alt="Treasurer"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Olivia_Shelton_Exec.png" alt="Historian"></img>
+                    </div>
+                </div>
+
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Riley_Richardson_Exec.png" alt="Corresponding Secretary"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Angel_Chen.png" alt="New Class Represontative•"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Daisy_Huang.png" alt="Scholarship"></img>
+                    </div>
+                </div>
+
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Gracie_Egerton.png" alt="Fellowship/IM"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Emmy_Miller.png" alt="Fellowship/IM"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Riley_Richardson_Chair.png" alt="Service"></img>
+                    </div>
+                </div> 
+ 
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Drew_Adams.png" alt="Recruitment"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Hunter_Bennett.png" alt="Recruitment"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Dazey_Dolicker.png" alt="Intentional Programming"></img>
+                    </div>
+                </div>
+
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Olivia_Shelton_Chair.png" alt="Fundraising"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Skylar_Lewis_Chair.png" alt="Fundraising"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Raquel_Winker.png" alt="Public Relations/Alumni"></img>
+                    </div>
+                </div>
+
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Gina_Jang.png" alt="IT"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Mckenna_Sutherland.png" alt="Inter-Chapter Relations"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Tisha_Abdul.png" alt="Standards"></img>
+                    </div>
+                </div> 
+
                 <section className="footer-container">
-                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"> </a>
+                    <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer"z className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
                     <h1 className="has-text-centered">2023</h1>
                     <a href="#top" className="fa fa-arrow-up"> </a>
