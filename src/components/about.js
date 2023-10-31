@@ -218,7 +218,7 @@ export default function About() {
                         <img src="pictures/Mckenna_Sutherland.png" alt="Inter-Chapter Relations"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Tisha_Abdul.png" alt="Standards"></img>
+                        <img src="pictures/Sydney_Jones.jpg" alt="Standards"></img>
                     </div>
                 </div> 
 
