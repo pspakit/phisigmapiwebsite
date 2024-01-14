@@ -73,7 +73,8 @@ export default function Recruitment() {
                         <img src="pictures/beta_omicron.jpg" alt="Beta Omicron Sign"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/fa23_recruitment_calendar2.jpg" align="absmiddle" alt="Fall 2023 Recruitment Schedule"></img>
+                                        // CHANGE THIS HERE TO NEW CALENDAR
+                        <img src="pictures/PSPAKRush24Spring.jpg" align="absmiddle" alt="Spring 2024 Recruitment Schedule"></img>
                     </div>
                     <div className="mission-col">
                         <img src="pictures/4_girls_with_sign.jpg" alt="PSPAK Sign"></img>
@@ -233,7 +234,7 @@ export default function Recruitment() {
                 </section>
 
                 <section className="container">
-                    <iframe title="Spring 2023 Recruitment Fact Sheet" src="https://docs.google.com/document/d/e/2PACX-1vQmDsxMuC_st5ivG1OmzgON1VXKRt-_QGDotPQZIa5OvFDtXY35jUTqhHwHvAjcliDvE8kEhjjLcHpj/pub?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
+                    <iframe title="Spring 2024 Recruitment Fact Sheet" src="https://docs.google.com/document/d/1eiCmVNGOxVHB6y841hx8X3HhLFxO7g_aBvub6A8Av_M/edit?embedded=true" scrolling="auto" width="100%" height="700"></iframe>
                 </section>
 
                 <section className="email-container">
