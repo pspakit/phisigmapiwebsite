@@ -125,7 +125,7 @@ export default function About() {
                 <section className="special-container">
                     <h1 className="has-text-centered">Leadership</h1>
                 </section>
-                                   // ADD THE NEW CHAIRS
+                                   // ADD THE NEW CHAIRS hiii
                 <div className="mission-row1">
                     <div className="mission-col1">
                         <img src="pictures/Anna_Coley.png" alt="President"></img>
