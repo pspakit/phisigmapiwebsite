@@ -125,7 +125,7 @@ export default function About() {
                 <section className="special-container">
                     <h1 className="has-text-centered">Leadership</h1>
                 </section>
-                                   // ADD THE NEW CHAIRS
+
                 <div className="mission-row1">
                     <div className="mission-col1">
                         <img src="pictures/Anna_Coley.png" alt="President"></img>
@@ -170,57 +170,62 @@ export default function About() {
                         <img src="pictures/Angel_Chen.png" alt="New Class Represontative•"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Daisy_Huang.png" alt="Scholarship"></img>
+                        <img src="pictures/SydneyStandardsScholarship.JPEG" alt="Scholarship/Standards"></img>
                     </div>
                 </div>
 
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Gracie_Egerton.png" alt="Fellowship/IM"></img>
+                        <img src="pictures/AndrewICR.JPEG" alt="ICR"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Emmy_Miller.png" alt="Fellowship/IM"></img>
+                        <img src="pictures/MaryRecruitmentandScholarship.JPEG" alt="Recruitment/Scholarship"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Riley_Richardson_Chair.png" alt="Service"></img>
+                        <img src="pictures/DeborahService.JPEG" alt="Service"></img>
                     </div>
                 </div> 
  
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Drew_Adams.png" alt="Recruitment"></img>
+                        <img src="pictures/CassidyIT.JPEG" alt="IT"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Hunter_Bennett.png" alt="Recruitment"></img>
+                        <img src="pictures/CourtneyPR.JPEG" alt="PR"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Dazey_Dolicker.png" alt="Intentional Programming"></img>
+                        <img src="pictures/RachelREcruitment.JPEG" alt="Recruitment"></img>
                     </div>
                 </div>
 
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Olivia_Shelton_Chair.png" alt="Fundraising"></img>
+                        <img src="pictures/ChrisFundrasiing.JPEG" alt="Fundraising"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Skylar_Lewis_Chair.png" alt="Fundraising"></img>
+                        <img src="pictures/SofiaIP.JPEG" alt="IP"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Raquel_Winker.png" alt="Public Relations/Alumni"></img>
+                        <img src="pictures/EmileyAlumni.JPEG" alt="Alumni"></img>
                     </div>
                 </div>
 
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Gina_Jang.png" alt="IT"></img>
+                        <img src="pictures/Skylar_Fellowship_IMChair.JPEG" alt="Fellowship/IM"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Mckenna_Sutherland.png" alt="Inter-Chapter Relations"></img>
+                        <img src="pictures/Olivia_FellowshipNIMChair.JPEG" alt="Fellowship/IM"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Sydney_Jones.jpg" alt="Standards"></img>
+                        <img src="pictures/TaylorAlumni.JPEG" alt="Alumni"></img>
                     </div>
-                </div> 
+                </div>
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/HannahLeadership.JPEG" alt="Leadership"></img>
+                    </div>
+                </div>
 
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer"z className="fa fa-instagram"> </a>
