@@ -225,6 +225,9 @@ export default function About() {
                     <div className="mission-col1">
                         <img src="pictures/HannahLeadership.JPEG" alt="Leadership"></img>
                     </div>
+                    <div className="mission-col1">
+                        <img src="pictures/DazeyIP (2).JPEG" alt="IP"></img>
+                    </div>
                 </div>
 
                 <section className="footer-container">
