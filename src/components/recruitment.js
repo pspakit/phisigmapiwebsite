@@ -72,7 +72,8 @@ export default function Recruitment() {
                     {/*<div className="mission-col">*/}
                     {/*    <img src="pictures/beta_omicron.jpg" alt="Beta Omicron Sign"></img>*/}
                     {/*</div>*/}
-                    <div className="mission-row"> // changed from col
+                    <div className="mission-row">
+                        {/*changed from col^*/}
                                         
                         <img src="pictures/PSPAKRush24Spring.jpg" align="absmiddle" alt="Spring 2024 Recruitment Schedule"></img>
                     </div>
