@@ -43,7 +43,7 @@ export default function Siblings() {
                     <h1 className="has-text-centered">Point Form</h1>
                 </section>
                 <section className="email-container">
-                    <h4 className="has-text-centered"><a href="https://docs.google.com/forms/d/1Uz7wsJhgZNKQfG_CwCzHyEjUmQxtmJrgl6m4ANo5eeU/viewform?edit_requested=true" target="_blank" rel="noreferrer">www.pspakattendance.com</a></h4>
+                    <h4 className="has-text-centered"><a href="https://docs.google.com/forms/d/1Uz7wsJhgZNKQfG_CwCzHyEjUmQxtmJrgl6m4ANo5eeU/viewform?edit_requested=true" target="_blank" rel="noreferrer">https://docs.google.com/forms/d/1Uz7wsJhgZNKQfG_CwCzHyEjUmQxtmJrgl6m4ANo5eeU/viewform?edit_requested=true</a></h4>
                 </section>
                 <section className="special-container">
                     <h1 className="has-text-centered">Sibling Requirements</h1>
