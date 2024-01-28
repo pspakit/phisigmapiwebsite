@@ -164,7 +164,7 @@ export default function Recruitment() {
                 <section className="another-container has-text-centered">
                     <p>Must have a 3.0 UNC GPA</p>
                     <p>Must have been a UNC student for at least one semester and have at least 3 semesters left at UNC</p>
-                    <p>Must be available for initiate chapter meetings on Wednesdays from 6:00 - 7:30 PM</p>
+                    <p>Must be available for initiate chapter meetings on Tuesdays from 7:00 - 8:00 PM</p>
                     <p>Must fulfill the recruitment attendance requirements (be present at 1 weekday event and the Friday event each week)</p>
                     <p>Must complete the fact sheet application and submit it on time to the recruitment advisors</p>
                 </section>
