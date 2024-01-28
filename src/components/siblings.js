@@ -52,6 +52,7 @@ export default function Siblings() {
                 <section className="another-container has-text-centered">
                     <p>1 Service Event</p>
                     <p>1 Scholarship Event</p>
+                    <p>1 Leadership Event</p>
                     <p>1 Weekday Recruitment Event (Each Week)</p>
                     <p>Both Friday Recruitment Events</p>
                     <p>Retreat</p>
@@ -62,7 +63,7 @@ export default function Siblings() {
                 </section>
                 
                 <section className="no-space-container has-text-centered">
-                    <p>You are allowed 2 absense from chapter this semester! One can be with no questions asked, and you must fill out the absense form for any others.</p>
+                    <p>You are allowed 2 absences from chapter this semester! One can be with no questions asked, and you must fill out the absence form for any others.</p>
                     <p>What counts as an excuse?</p>
                 </section>
                 <section className="container">
@@ -84,7 +85,7 @@ export default function Siblings() {
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
-                    <h1 className="has-text-centered">2023</h1>
+                    <h1 className="has-text-centered">2024</h1>
                     <a href="#top" className="fa fa-arrow-up"> </a>
                 </section>
             </div>

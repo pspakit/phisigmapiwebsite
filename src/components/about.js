@@ -233,7 +233,7 @@ export default function About() {
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer"z className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
-                    <h1 className="has-text-centered">2023</h1>
+                    <h1 className="has-text-centered">2024</h1>
                     <a href="#top" className="fa fa-arrow-up"> </a>
                 </section>
             </div>

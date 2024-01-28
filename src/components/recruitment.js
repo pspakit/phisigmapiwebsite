@@ -239,7 +239,7 @@ export default function Recruitment() {
                 </section>
 
                 <section className="email-container">
-                    <h4 className="has-text-centered"><a href="https://docs.google.com/document/d/e/2PACX-1vQmDsxMuC_st5ivG1OmzgON1VXKRt-_QGDotPQZIa5OvFDtXY35jUTqhHwHvAjcliDvE8kEhjjLcHpj/pub?embedded=true" target="_blank" rel="noreferrer">Spring Recruitment 2023 - Fact Sheet</a></h4>
+                    <h4 className="has-text-centered"><a href="https://docs.google.com/document/d/e/2PACX-1vQmDsxMuC_st5ivG1OmzgON1VXKRt-_QGDotPQZIa5OvFDtXY35jUTqhHwHvAjcliDvE8kEhjjLcHpj/pub?embedded=true" target="_blank" rel="noreferrer">Spring Recruitment 2024 - Fact Sheet</a></h4>
                 </section>
 
                 <section className="container">
@@ -249,7 +249,7 @@ export default function Recruitment() {
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer" className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
-                    <h1 className="has-text-centered">2023</h1>
+                    <h1 className="has-text-centered">2024</h1>
                     <a href="#top" className="fa fa-arrow-up"> </a>
                 </section>
             </div>
