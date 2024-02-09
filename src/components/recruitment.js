@@ -69,17 +69,16 @@ export default function Recruitment() {
                     <h1 className="has-text-centered">Recruitment Timeline</h1>
                 </section>
                 <div className="mission-row">
-                    {/*<div className="mission-col">*/}
-                    {/*    <img src="pictures/beta_omicron.jpg" alt="Beta Omicron Sign"></img>*/}
-                    {/*</div>*/}
-                    <div className="container">
-                        {/*changed from col^*/}
-                                        
-                        <img src="pictures/PSPAKRush24Spring.jpg" align="absmiddle" alt="Spring 2024 Recruitment Schedule"></img>
+                    <div className="mission-col">
+                        <img src="pictures/beta_omicron.jpg" alt="Beta Omicron Sign"></img>
                     </div>
-                    {/*<div className="mission-col">*/}
-                    {/*    <img src="pictures/4_girls_with_sign.jpg" alt="PSPAK Sign"></img>*/}
-                    {/*</div>*/}
+                    <div className="mission-col">
+                                        
+                        <img src="pictures/I_went_phi_sig.jpg" align="absmiddle" alt="cute pic in place of event cal"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/4_girls_with_sign.jpg" alt="PSPAK Sign"></img>
+                    </div>
                 </div>
                 <section className="special-container has-text-centered">
                     <h4>How many recruitment events do I need to attend?</h4>
