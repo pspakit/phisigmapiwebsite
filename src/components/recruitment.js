@@ -74,7 +74,7 @@ export default function Recruitment() {
                     </div>
                     <div className="mission-col">
                                         
-                        <img src="pictures/girls_hat.jpg" align="absmiddle" alt="beta omnicron pic"></img>
+                        <img src="pictures/will_went_phi_sig.jpg" align="absmiddle" alt="beta omnicron pic"></img>
                     </div>
                     <div className="mission-col">
                         <img src="pictures/4_girls_with_sign.jpg" alt="PSPAK Sign"></img>
