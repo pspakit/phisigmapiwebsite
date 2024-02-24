@@ -73,8 +73,7 @@ export default function Recruitment() {
                         <img src="pictures/beta_omicron.jpg" alt="Beta Omicron Sign"></img>
                     </div>
                     <div className="mission-col">
-                                        
-                        <img src="pictures/2024biglittlereveal.jpg" alt="2024 reveal"></img>
+                        <img src="pictures/2024_big_little_reveal.jpg" alt="2024 big little"></img>
                     </div>
                     <div className="mission-col">
                         <img src="pictures/4_girls_with_sign.jpg" alt="PSPAK Sign"></img>
