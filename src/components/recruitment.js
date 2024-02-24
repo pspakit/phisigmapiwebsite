@@ -74,7 +74,7 @@ export default function Recruitment() {
                     </div>
                     <div className="mission-col">
                                         
-                        <img src="pictures/2024biglittlereveal.jpg" align="2024 reveal" alt="2024 reveal"></img>
+                        <img src="pictures/2024biglittlereveal.jpg" alt="2024 reveal"></img>
                     </div>
                     <div className="mission-col">
                         <img src="pictures/4_girls_with_sign.jpg" alt="PSPAK Sign"></img>
