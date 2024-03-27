@@ -82,10 +82,10 @@ export default function About() {
                         <img src="pictures/soccer.jpg" alt="Intramural Soccer Team"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/shirts.jpg" alt="Phi Sig Shirts"></img>
+                        <img src="pictures/CubePainting.jpg" alt="Phi Sig Shirts"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/arboretum.jpg" alt="Arboretum"></img>
+                        <img src="pictures/2023FallBigLittle.jpg" alt="2023 Fall Big Little Reveal"></img>
                     </div>
                 </div>
                 

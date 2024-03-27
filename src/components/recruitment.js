@@ -70,13 +70,13 @@ export default function Recruitment() {
                 </section>
                 <div className="mission-row">
                     <div className="mission-col">
-                        <img src="pictures/beta_omicron.jpg" alt="Beta Omicron Sign"></img>
+                        <img src="pictures/RachelAnnaJulia.jpg" alt="Rachel Anna Julia Big Little Reveal"></img>
                     </div>
                     <div className="mission-col">
                         <img src="pictures/2024_big_little_reveal.jpg" alt="2024 big little"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/4_girls_with_sign.jpg" alt="PSPAK Sign"></img>
+                        <img src="pictures/emmy_mikayala.jpg" alt="Emmy and Mikayla Big Little Reveal"></img>
                     </div>
                 </div>
                 <section className="special-container has-text-centered">
