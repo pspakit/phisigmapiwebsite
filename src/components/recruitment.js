@@ -144,10 +144,10 @@ export default function Recruitment() {
                         <img src="pictures/I_went_phi_sig.jpg" alt="I went phi sig!"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/waffle.jpg" alt="Bid Breakfast"></img>
+                        <img src="pictures/CASSIDYBIDDAY.jpg" alt="Bid Breakfast"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/campus_y.jpg" alt="Beta O's!"></img>
+                        <img src="pictures/FormalCuties.jpg" alt="Pre Formal Fun"></img>
                     </div>
                 </div>
 
@@ -188,13 +188,13 @@ export default function Recruitment() {
 
                 <div className="mission-row">
                     <div className="mission-col">
-                        <img src="pictures/rose.jpg" alt="Will you accept this rose?"></img>
+                        <img src="pictures/adorable.jpg" alt="Bid Day cuties"></img>
                     </div>
                     <div className="mission-col">
                         <img src="pictures/BronteEthan.jpg" alt="Welcome to the fam! Bronte Ethan"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/welcome_to_fam.jpg" alt="Welcome to the fam!"></img>
+                        <img src="pictures/CubePainting.jpg" alt="Welcome to the fam!"></img>
                     </div>
                 </div>
 
