@@ -73,10 +73,10 @@ export default function Recruitment() {
                         <img src="pictures/RachelAnnaJulia.jpg" alt="Rachel Anna Julia Big Little Reveal"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/2024_big_little_reveal.jpg" alt="2024 big little"></img>
+                        <img src="pictures/2023FallPC.jpg" alt="2023 Fall PC"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/emmy_mikayala.jpg" alt="Emmy and Mikayla Big Little Reveal"></img>
+                        <img src="pictures/emmy_mikayalaBigLittle.jpg" alt="Emmy and Mikayla Big Little Reveal"></img>
                     </div>
                 </div>
                 <section className="special-container has-text-centered">
