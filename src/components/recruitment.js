@@ -191,7 +191,7 @@ export default function Recruitment() {
                         <img src="pictures/rose.jpg" alt="Will you accept this rose?"></img>
                     </div>
                     <div className="mission-col">
-                        <img src="pictures/another_welcome_to_fam.jpg" alt="Welcome to the fam!"></img>
+                        <img src="pictures/BronteEthan.jpg" alt="Welcome to the fam! Bronte Ethan"></img>
                     </div>
                     <div className="mission-col">
                         <img src="pictures/welcome_to_fam.jpg" alt="Welcome to the fam!"></img>

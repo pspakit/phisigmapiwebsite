@@ -78,12 +78,12 @@ export default function About() {
                 </section>
 
                 <div className="mission-row">
-                    {/*<div className="mission-col">*/}
-                    {/*    <img src="pictures/soccer.jpg" alt="Intramural Soccer Team"></img>*/}
-                    {/*</div>*/}
-                    {/*<div className="mission-col">*/}
-                    {/*    <img src="pictures/CubePainting.jpg" alt="Phi Sig Shirts"></img>*/}
-                    {/*</div>*/}
+                    <div className="mission-col">
+                        <img src="pictures/soccer.jpg" alt="Intramural Soccer Team"></img>
+                    </div>
+                    <div className="mission-col">
+                        <img src="pictures/EmmaHaileyBL.jpg" alt="Emma Hailey BL Reveal"></img>
+                    </div>
                     <div className="mission-col">
                         <img src="pictures/2023FallBigLittle.jpg" alt="2023 Fall Big Little Reveal"></img>
                     </div>
