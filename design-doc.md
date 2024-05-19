@@ -65,6 +65,7 @@ As **Sara Sibling, Christian Chair, and Anna Admin** I want to be able to log in
 - The login should be persistent for a month(?), to prevent users from needing to login every time
 - Accounts should be able to be created using `/signup` with fields for email, name, password, etc.
   - Accounts should only be able to be logged into upon activation to prevent randoms from accessing the restricted portion of the website
+  - Can also restrict accessing sensitive info to just chairs & exec or on a person to person basis
 
 ### Story E
 
@@ -72,31 +73,57 @@ As **Sara Sibling, Christian Chair, and Anna Admin** I want to be able to check 
 
 - Users should be redirected here after a valid login attempt
 - Users with valid JWT tokens should also be redirected here upon navigating back to the webpage
-- The "Check In" navigation tile should be shown and able to be clicked to these personas
+- The "Check In" navigation tile should be shown and able to be clicked by these personas
 - Current and upcoming events should be shown here
-- Credit fulfillment state should be shown here
-
-## 🚦🚧🔶 Following Under Construction 🔶🚧🚦
+  - Only current events should have a visible "Check In" button
+- The current credit fulfillment state for the user should be shown on this page
 
 ### Story F
 
 As **Sara Sibling, Christian Chair, and Anna Admin** I want to be able to view all the records of attendance I have in the current and previous semesters.
 
 - This page should be at `/attendance` and the nav tile "My Attendance" should be shown to these personas
+- Data should be shown in a list/table like format
+- Allow the list to be downloaded in a `.csv` format
 
 ### Story G
 
-As **Christian Chair and Anna Admin** I want to be able to create new events for siblings to see and be able to check into.
+As **Christian Chair and Anna Admin** I want to be able to create new events and edit existing events for siblings to see and check into.
+
+- The form for this should be at `/event/?` where "?" refers to the id of the event being edited (or 0 if creating a new event)
+- The event should be created with a title, location, time, optional description, image, and credit it fulfills
+- These personas should see a "New Event" button on the `/attendance` page as well as an "Edit Event" button for:
+  - their events if they are a Chair
+  - All events if you are an Admin
 
 ### Story H
 
 As **Christian Chair and Anna Admin** I want to be able to view attendance reports for all of my events as well as see complete lists of siblings who have fulfilled my credit requirement, and those who have not.
 
-- Includes updating (adding/deleting peoples) attendance for particular events
+- This page should be viewable at `/report`
+- 2 sections: Event Attendance & Credit Fulfillment
+- Event Attendance viewable at `/report/<event_id>`
+  - List of attendees
+- Credit Fulfillment should list siblings who have & have not completed a selected credit
+- Export the lists as a `.csv` for both events and credit fulfillment
 
 ### Story I
 
+As **Christian Chair and Anna Admin** I want to be able to edit the attendance list for my (chair) or all (admin) events.
+
+- Able to navigate to `/report/<event_id>`
+- See a delete button next to each name
+- Able to select siblings from a dropdown to add to the attendance records
+
+### Story J
+
 As **Anna Admin** I want to be able to promote/demote others to Siblings, Chairs, and Admins. I also want to control who has access to view info of the chapter and it's siblings.
+
+- Functionality stored at `/admin`
+- Works much like the CSXL web application. Able to assign permission actions and resources to roles & assign roles to users
+- For future: Able to control what user details each user is able to see
+
+## 🚦🚧🔶 Following Under Construction 🔶🚧🚦
 
 ## Wireframes
 
@@ -168,12 +195,8 @@ The credit marking page wireframe allows chairs to mark off credits for members 
 
 - Announcement system
 - Filtering events based on user roles
-- User registration for future events
 - Profile editing page (likely to be implemented)
-
-## Notes
-
-**Confidentiality of SOPs and Bylaws:** Please consult the parliamentarian to determine if SOPs and Bylaws should be kept confidential or if they can be publicly accessible.
+- Sibling Information Sheet
 
 ## Technical Implementation
 
