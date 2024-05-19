@@ -178,3 +178,5 @@ The credit marking page wireframe allows chairs to mark off credits for members 
 ## Technical Implementation
 
 Please consult the current IT chair for technical details regarding implementation, including technologies to be used, API routes, database concerns, and any other technical requirements.
+
+Consider building with some techniques outlined in [this repo](https://github.com/alan2207/bulletproof-react).
