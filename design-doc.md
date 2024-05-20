@@ -123,15 +123,36 @@ As **Anna Admin** I want to be able to promote/demote others to Siblings, Chairs
 - Works much like the CSXL web application. Able to assign permission actions and resources to roles & assign roles to users
 - For future: Able to control what user details each user is able to see
 
+## Website Design
+
+### Colors
+
+The colors of the website should follow the PSP standard of purple, gold, and yellow.
+Additional accent colors such as white and black can also be used.
+Another idea would be to use pastel colors, which can be a little more inviting to the user: I think for this site, I could consider using some of the lighter shades to accomplish this.
+
+![Potential Color Pallet](https://icolorpalette.com/download/palette/515760_color_palette.jpg)
+A potential color pallet
+
+### Design Concepts from other Websites
+
+I like the landing portion of [this webpage](https://services.edutesla.com/).
+Specifically, I like how the text is on a partially blurred background but is still easily read. I also like the nav bar at the top; however, it may be hard to implement something similar in this website due to the changing menu options based on login.
+I am not a huge fan of having all of the information on one large page, since then the user has to scroll. If I were to do it, I would have each nav option point to another page. However, by doing it that way, I would need to come up with a new background for the nav that doesn't include the image.
+
+On the [CS + SG Website](https://cssgunc.org/) I really like how the homepage is laid out. Having a simple call to action at the top, followed by clickable tiles underneath which detail all the different pages of the website. I also like the email form & contact information at the bottom of the page.
+I don't like the color choices or the nav bar relying on clicking a "menu" button (however this may be more ideal on mobile devices, I should keep this in mind as most users for my website will be on their phones). I also don't like how the main photo on the front page is almost completely hidden behind the dark filtering color.
+
+![Example Webpage](https://99designs-blog.imgix.net/blog/wp-content/uploads/2021/01/cozzzy-copy.jpg?auto=format&q=60&fit=max&w=930)
+I really like this landing page. The nav bar is simple but effective, and the illustration is out of the way of the text but is still nice to have. I also like the change in color and cutoff of the illustration as the page transitions to more information.
+
 ## 🚦🚧🔶 Following Under Construction 🔶🚧🚦
 
 ## Wireframes
 
-### Homepage
+### External Homepage
 
 ![Homepage Wireframe](homepage_wireframe.png)
-
-#### Description
 
 The homepage wireframe includes event cards displaying event information and options for members to check into events. The header includes the website title and navigation bar for easy navigation. The event creation link/button is visible only to authorized users (chairs and admins).
 
@@ -139,15 +160,11 @@ The homepage wireframe includes event cards displaying event information and opt
 
 ![Event Creation Page Wireframe](event_creation_wireframe.png)
 
-#### Description
-
 The event creation page wireframe presents a form for chairs and admins to create new events, including fields for event details and credit assignment options. The header includes the website title and navigation bar for easy navigation.
 
 ### Attendance Management Page
 
 ![Attendance Management Page Wireframe](attendance_management_wireframe.png)
-
-#### Description
 
 The attendance management page wireframe provides chairs with a user-friendly interface to view attendance records for their events and download attendance lists. The header includes the website title and navigation bar for easy navigation. Download buttons for individual events and all events are provided.
 
@@ -155,15 +172,11 @@ The attendance management page wireframe provides chairs with a user-friendly in
 
 ![Member Management Page Wireframe](member_management_wireframe.png)
 
-#### Description
-
 The member management page wireframe allows the admin to manage member roles, credit assignment permissions, and access to personal information. The header includes the website title and navigation bar for easy navigation.
 
 ### Credit Management Page
 
 ![Credit Management Page Wireframe](credit_management_wireframe.png)
-
-#### Description
 
 The credit management page wireframe focuses solely on managing credit requirements for the semester. The header includes the website title and navigation bar for easy navigation.
 
@@ -171,23 +184,17 @@ The credit management page wireframe focuses solely on managing credit requireme
 
 ![Landing Page Wireframe](landing_page_wireframe.png)
 
-#### Description
-
 The landing page wireframe provides a welcoming introduction to the website and includes a login form for existing users. Users can also find a button to navigate to the sign-up page if they don't have an account. The header includes the website title and navigation bar for easy navigation, while the footer contains links to important documents.
 
 ### Sign-up Page
 
 ![Sign-up Page Wireframe](signup_page_wireframe.png)
 
-#### Description
-
 The sign-up page wireframe presents a form for users to input necessary information to create an account. This includes fields for name, email, password, and any additional required information. The header includes the website title and navigation bar for easy navigation, while the footer contains links to important documents.
 
 ### Credit Marking Page
 
 ![Credit Marking Page Wireframe](credit_marking_wireframe.png)
-
-#### Description
 
 The credit marking page wireframe allows chairs to mark off credits for members without needing an event to be logged. It includes a form for chairs to fill out for missed check-ins. The header includes the website title and navigation bar for easy navigation.
 
