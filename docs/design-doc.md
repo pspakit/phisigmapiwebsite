@@ -152,51 +152,29 @@ I really like this landing page. The nav bar is simple but effective, and the il
 
 ### External Homepage
 
-![Homepage Wireframe](homepage_wireframe.png)
+![Landing Page View](./images/External_Homepage1.png)
+This will be the screen that will show upon loading the website without a valid JWT token. The bar at the top will be the site wide navigation, with the logo routing to this page. The `Join Us` button will link to the `/recruitment` page. The colored squares at the bottom will match up with the below scrolled image. The image in the middle is a placeholder and will be replaced for an actual image of phi sig siblings.
 
-The homepage wireframe includes event cards displaying event information and options for members to check into events. The header includes the website title and navigation bar for easy navigation. The event creation link/button is visible only to authorized users (chairs and admins).
+![Scrolled Page View](./images/External_Homepage2.png)
+Each square will route to its appropriate page. The squares will have a background image with the color being transparent in front until the user hovers over the square, in which case the color will fade away revealing the entire photo. Also the bottom will contain the contact information including email and socials.
 
-### Event Creation Page
+### About Page
 
-![Event Creation Page Wireframe](event_creation_wireframe.png)
+### Recruitment Page
 
-The event creation page wireframe presents a form for chairs and admins to create new events, including fields for event details and credit assignment options. The header includes the website title and navigation bar for easy navigation.
+### Gallery Page
 
-### Attendance Management Page
+### Login/Signup Page
 
-![Attendance Management Page Wireframe](attendance_management_wireframe.png)
+### Check in Page
 
-The attendance management page wireframe provides chairs with a user-friendly interface to view attendance records for their events and download attendance lists. The header includes the website title and navigation bar for easy navigation. Download buttons for individual events and all events are provided.
+### Event Creation/Edit Page
 
-### Member Management Page
+### Personal Attendance Page
 
-![Member Management Page Wireframe](member_management_wireframe.png)
+### Event Attendance/Credit Fulfillment Page
 
-The member management page wireframe allows the admin to manage member roles, credit assignment permissions, and access to personal information. The header includes the website title and navigation bar for easy navigation.
-
-### Credit Management Page
-
-![Credit Management Page Wireframe](credit_management_wireframe.png)
-
-The credit management page wireframe focuses solely on managing credit requirements for the semester. The header includes the website title and navigation bar for easy navigation.
-
-### Landing Page
-
-![Landing Page Wireframe](landing_page_wireframe.png)
-
-The landing page wireframe provides a welcoming introduction to the website and includes a login form for existing users. Users can also find a button to navigate to the sign-up page if they don't have an account. The header includes the website title and navigation bar for easy navigation, while the footer contains links to important documents.
-
-### Sign-up Page
-
-![Sign-up Page Wireframe](signup_page_wireframe.png)
-
-The sign-up page wireframe presents a form for users to input necessary information to create an account. This includes fields for name, email, password, and any additional required information. The header includes the website title and navigation bar for easy navigation, while the footer contains links to important documents.
-
-### Credit Marking Page
-
-![Credit Marking Page Wireframe](credit_marking_wireframe.png)
-
-The credit marking page wireframe allows chairs to mark off credits for members without needing an event to be logged. It includes a form for chairs to fill out for missed check-ins. The header includes the website title and navigation bar for easy navigation.
+### Admin Page
 
 ## Possible Future Development
 
