@@ -160,6 +160,9 @@ Each square will route to its appropriate page. The squares will have a backgrou
 
 ### About Page
 
+![About Page View](./images/About.png)
+The about page will utilize the same photo below colored filter design element at the top (this time with no hover animation). The buttons on the header will link to appropriate sections on the webpage. On the actual webpage, the tripod and leadership sections will be on the lower portion of the website. For tripod, design on a three column view. For leadership, use the instagram photos (possibly transcribe onto page and just use the photo).
+
 ### Recruitment Page
 
 ### Gallery Page
@@ -186,5 +189,9 @@ Each square will route to its appropriate page. The squares will have a backgrou
 ## Technical Implementation
 
 Please consult the current IT chair for technical details regarding implementation, including technologies to be used, API routes, database concerns, and any other technical requirements.
+
+The old website uses a React + Firebase tech stack. For the improved website, I will employ [`Next.js`](https://nextjs.org/) (React Framework) + Firebase for data storage. If backend service functions are required, I may look into serverless functions through google/firebase.
+
+For CSS Styling, I will most likely use [`Tailwindcss`](https://tailwindcss.com/) as there is built in support in Next.
 
 Consider building with some techniques outlined in [this repo](https://github.com/alan2207/bulletproof-react).
