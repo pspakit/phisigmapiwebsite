@@ -165,7 +165,16 @@ The about page will utilize the same photo below colored filter design element a
 
 ### Recruitment Page
 
+![Recruitment Page Top](./images/Recruitment1.png)
+This page will be very similar to the About page and the items detailed above.
+
+![Recruitment Page Scrolled half](./images/Recruitment2.png)
+This shows the lower portion of the recruitment page. There will be more sections below for the cost of the program as well as the "What's Next?" section.
+
 ### Gallery Page
+
+![Gallery Page](./images/Gallery.png)
+The gallery will function much like other website galleries. The top will display a large photo with arrow buttons on either side to navigate photo by photo. The bottom row will allow for users to view multiple smaller photos at once, and select one to display in the top row. The one currently on display will have a gold border around it. The arrows on the bottom will navigate the bottom row left or right by a whole row.
 
 ### Login/Signup Page
 
