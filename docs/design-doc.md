@@ -153,7 +153,7 @@ I really like this landing page. The nav bar is simple but effective, and the il
 ### External Homepage
 
 ![Landing Page View](./images/External_Homepage1.png)
-This will be the screen that will show upon loading the website without a valid JWT token. The bar at the top will be the site wide navigation, with the logo routing to this page. The `Join Us` button will link to the `/recruitment` page. The colored squares at the bottom will match up with the below scrolled image. The image in the middle is a placeholder and will be replaced for an actual image of phi sig siblings.
+This will be the screen that will show upon loading the website without a valid JWT token. The bar at the top will be the site wide navigation, with the logo routing to this page. The `Join Us` button will link to the `/recruitment` page. The colored squares at the bottom will match up with the below scrolled image. The image in the middle is a placeholder and will be replaced for an actual image of phi sig siblings. Finally, note that the logo in the top left corner will have the text "Alpha Kappa Chapter" edited in instead of placed there via the website.
 
 ![Scrolled Page View](./images/External_Homepage2.png)
 Each square will route to its appropriate page. The squares will have a background image with the color being transparent in front until the user hovers over the square, in which case the color will fade away revealing the entire photo. Also the bottom will contain the contact information including email and socials.
