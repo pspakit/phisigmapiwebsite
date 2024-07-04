@@ -178,6 +178,12 @@ The gallery will function much like other website galleries. The top will displa
 
 ### Login/Signup Page
 
+![Login Page](./images/Login.png)
+Very Simple login page, clicking on "Request Account" should redirect user to `/signup`. After sending a successful login request, the user should be rerouted to the Check In page, and their login token should be maintained in the browser. Subsequent loads of the website should open in the Check In Page until the token expires.
+
+![Sign Up Page](./images/SignUp.png)
+Very simple design, upon submission a confirmation message should appear, nothing that no email will be sent on account activation.
+
 ### Check in Page
 
 ### Event Creation/Edit Page
@@ -191,6 +197,7 @@ The gallery will function much like other website galleries. The top will displa
 ## Possible Future Development
 
 - Announcement system
+- Allow users to choose if their login is saved on the browser (check mark on login page)
 - Filtering events based on user roles
 - Profile editing page (likely to be implemented)
 - Sibling Information Sheet
