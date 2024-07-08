@@ -186,6 +186,9 @@ Very simple design, upon submission a confirmation message should appear, nothin
 
 ### Check in Page
 
+![Check In Page](./images/CheckInPage.png)
+Cards with event details as added via Chairs on the event creation/edit page. Each event can be flipped over by clicking on the arrow to see more details on the back. If there are too many events to be viewed on one screen, include a scroll feature like on the gallery page. On scroll over for the check in button, have the white and gold switch.
+
 ### Event Creation/Edit Page
 
 ### Personal Attendance Page
