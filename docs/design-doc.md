@@ -84,6 +84,8 @@ As **Sara Sibling, Christian Chair, and Anna Admin** I want to be able to view a
 
 - This page should be at `/attendance` and the nav tile "My Attendance" should be shown to these personas
 - Data should be shown in a list/table like format
+- Allow for deletion of each attendance record
+- Data can be filtered or sorted
 - Allow the list to be downloaded in a `.csv` format
 
 ### Story G
@@ -92,20 +94,30 @@ As **Christian Chair and Anna Admin** I want to be able to create new events and
 
 - The form for this should be at `/event/?` where "?" refers to the id of the event being edited (or 0 if creating a new event)
 - The event should be created with a title, location, time, optional description, image, and credit it fulfills
-- These personas should see a "New Event" button on the `/attendance` page as well as an "Edit Event" button for:
-  - their events if they are a Chair
-  - All events if you are an Admin
+- These personas should see a "Events" button on the nav bar which routes to `/events/`
+  - List of the events that chair has created
+  - *New Event* button
+  - *Edit Event* and *Report* buttons on each event
+  - **Chairs**: Only see their events
+  - **Admins**: See all events
 
 ### Story H
 
-As **Christian Chair and Anna Admin** I want to be able to view attendance reports for all of my events as well as see complete lists of siblings who have fulfilled my credit requirement, and those who have not.
+#### P1
+As **Christian Chair and Anna Admin** I want to be able to view attendance reports for all of my events.
 
-- This page should be viewable at `/report`
-- 2 sections: Event Attendance & Credit Fulfillment
-- Event Attendance viewable at `/report/<event_id>`
+- Event Attendance viewable on event edit page
   - List of attendees
-- Credit Fulfillment should list siblings who have & have not completed a selected credit
-- Export the lists as a `.csv` for both events and credit fulfillment
+- Each list should be exportable as a `.csv`
+
+#### P2
+
+See complete lists of siblings who have fulfilled my credit requirement, and those who have not.
+
+- This page should be viewable at `/report` and by clicking on the "Report" button on the "Events" page
+- List siblings who have & have not completed a selected credit
+- All chairs and admins should have access to viewing all credit reports
+- The credit reports should be exportable as a `.csv`
 
 ### Story I
 
@@ -189,9 +201,12 @@ Very simple design, upon submission a confirmation message should appear, nothin
 ![Check In Page](./images/CheckInPage.png)
 Cards with event details as added via Chairs on the event creation/edit page. Each event can be flipped over by clicking on the arrow to see more details on the back. If there are too many events to be viewed on one screen, include a scroll feature like on the gallery page. On scroll over for the check in button, have the white and gold switch.
 
-### Event Creation/Edit Page
-
 ### Personal Attendance Page
+
+![Attendance Page With example rows](./images/PersonalAttendancePage.png)
+Page will show all the attendance records of the logged in user in a list format which can be filtered and sorted in any way the user would like. Default will be sorted by time in decreasing order top to bottom. User has option to delete attendance records - for case of checking into wrong event. Download icon for downloading as CSV.
+
+### Event Creation/Edit Page
 
 ### Event Attendance/Credit Fulfillment Page
 
@@ -199,6 +214,7 @@ Cards with event details as added via Chairs on the event creation/edit page. Ea
 
 ## Possible Future Development
 
+- Allow chairs to give credits without needing to create an event
 - Announcement system
 - Allow users to choose if their login is saved on the browser (check mark on login page)
 - Filtering events based on user roles
