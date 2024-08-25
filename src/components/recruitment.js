@@ -111,7 +111,7 @@ export default function Recruitment() {
                     </div>
                     <div className="time-container right">
                         <div className="content">
-                        <p>RSVP for recruitment events through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9AJzHUxm5TS68_eExA4rP6WqyHBZID1-LamKjsSZnssSHEg/viewform?usp=sf_link" target="_blank" rel="noreferrer">interest form</a></p>
+                        <p>RSVP for recruitment events through this <a href="https://form.jotform.com/233315887707970">interest form</a></p>
                         </div>
                     </div>
                     <div className="time-container left">
@@ -160,9 +160,12 @@ export default function Recruitment() {
                 </section>
 
                 <section className="another-container has-text-centered">
-                    <p>Must have a 3.0 UNC GPA</p>
-                    <p>Must have been a UNC student for at least one semester and have at least 3 semesters left at UNC</p>
-                    <p>Must be available for initiate chapter meetings on Tuesdays from 7:00 - 8:00 PM</p>
+                    <p>Must have a cumulative GPA  that is at least a 3.0</p>
+                    <p>Having completed one semester of college</p>
+                    <p>Must have at least one semester of college remaining following the initiation semester</p>
+                    <p><strong>We are able to waive up to 2 of the above requirements, please contact the rush chairs if you have concerns about meeting the requirements.</strong></p>
+                    <br></br>
+                    <p>Must be available for initiate chapter meetings on Tuesdays from 6:00 - 7:00 PM</p>
                     <p>Must fulfill the recruitment attendance requirements (be present at 1 weekday event and the Friday event each week)</p>
                     <p>Must complete the fact sheet application and submit it on time to the recruitment advisors</p>
                 </section>
