@@ -96,6 +96,16 @@ export default function Recruitment() {
                 </div>
 
                 <section className="special-container has-text-centered">
+                    <h4>Recruitment Calendar</h4>
+                </section>
+
+                <div className="mission-row">
+                    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', marginBottom: 10}}>
+                        <img className="has-text-centered" src="pictures/Recruitment_Calendar_f24.png" alt="Recruitment Calendar"></img>
+                    </div>
+                </div>
+
+                <section className="special-container has-text-centered">
                     <h4>What does my full recruitment timeline look like?</h4>
                 </section>
 
