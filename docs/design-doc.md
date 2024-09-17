@@ -223,8 +223,6 @@ Page will show all the attendance records of the logged in user in a list format
 
 ## Technical Implementation
 
-Please consult the current IT chair for technical details regarding implementation, including technologies to be used, API routes, database concerns, and any other technical requirements.
-
 The old website uses a React + Firebase tech stack. For the improved website, I will employ [`Next.js`](https://nextjs.org/) (React Framework) + Firebase for data storage. If backend service functions are required, I may look into serverless functions through google/firebase.
 
 For CSS Styling, I will most likely use [`Tailwindcss`](https://tailwindcss.com/) as there is built in support in Next.
