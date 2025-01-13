@@ -149,7 +149,7 @@ export default function Recruitment() {
           >
             <img
               className="has-text-centered"
-              src="pictures/Recruitment_Calendar_f24.png"
+              src="pictures/s25_recruitment_cal.png"
               alt="Recruitment Calendar"
             ></img>
           </div>
