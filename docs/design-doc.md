@@ -96,14 +96,15 @@ As **Christian Chair and Anna Admin** I want to be able to create new events and
 - The event should be created with a title, location, time, optional description, image, and credit it fulfills
 - These personas should see a "Events" button on the nav bar which routes to `/events/`
   - List of the events that chair has created
-  - *New Event* button
-  - *Edit Event* and *Report* buttons on each event
+  - _New Event_ button
+  - _Edit Event_ and _Report_ buttons on each event
   - **Chairs**: Only see their events
   - **Admins**: See all events
 
 ### Story H
 
 #### P1
+
 As **Christian Chair and Anna Admin** I want to be able to view attendance reports for all of my events.
 
 - Event Attendance viewable on event edit page
@@ -143,7 +144,7 @@ The colors of the website should follow the PSP standard of purple, gold, and ye
 Additional accent colors such as white and black can also be used.
 Another idea would be to use pastel colors, which can be a little more inviting to the user: I think for this site, I could consider using some of the lighter shades to accomplish this.
 
-![Potential Color Pallet](https://icolorpalette.com/download/palette/515760_color_palette.jpg)
+![Potential Color Pallet](images/color_pallet.png)
 A potential color pallet
 
 ### Design Concepts from other Websites
