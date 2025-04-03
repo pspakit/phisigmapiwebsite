@@ -94,12 +94,13 @@ As **Christian Chair and Anna Admin** I want to be able to create new events and
 
 - The form for this should be at `/event/?` where "?" refers to the id of the event being edited (or 0 if creating a new event)
 - The event should be created with a title, location, time, optional description, image, and credit it fulfills
-- These personas should see a "Events" button on the nav bar which routes to `/events/`
+- These personas should see a "Events" button on the nav bar which routes to `/events`
   - List of the events that chair has created
   - _New Event_ button
   - _Edit Event_ and _Report_ buttons on each event
-  - **Chairs**: Only see their events
-  - **Admins**: See all events
+  - STRETCH:
+    - **Chairs**: Only see their events
+    - **Admins**: See all events
 
 ### Story H
 
@@ -159,6 +160,10 @@ I don't like the color choices or the nav bar relying on clicking a "menu" butto
 ![Example Webpage](https://99designs-blog.imgix.net/blog/wp-content/uploads/2021/01/cozzzy-copy.jpg?auto=format&q=60&fit=max&w=930)
 I really like this landing page. The nav bar is simple but effective, and the illustration is out of the way of the text but is still nice to have. I also like the change in color and cutoff of the illustration as the page transitions to more information.
 
+### Icons
+
+Icons for the website will come from [Lucide](https://lucide.dev/) as they are free to use without attribution.
+
 ## 🚦🚧🔶 Following Under Construction 🔶🚧🚦
 
 ## Wireframes
@@ -189,6 +194,8 @@ This shows the lower portion of the recruitment page. There will be more section
 ![Gallery Page](./images/Gallery.png)
 The gallery will function much like other website galleries. The top will display a large photo with arrow buttons on either side to navigate photo by photo. The bottom row will allow for users to view multiple smaller photos at once, and select one to display in the top row. The one currently on display will have a gold border around it. The arrows on the bottom will navigate the bottom row left or right by a whole row.
 
+> Stretch Goal: Logged in users can see a button to upload and add photos to the photo gallery
+
 ### Login/Signup Page
 
 ![Login Page](./images/Login.png)
@@ -202,14 +209,38 @@ Very simple design, upon submission a confirmation message should appear, nothin
 ![Check In Page](./images/CheckInPage.png)
 Cards with event details as added via Chairs on the event creation/edit page. Each event can be flipped over by clicking on the arrow to see more details on the back. If there are too many events to be viewed on one screen, include a scroll feature like on the gallery page. On scroll over for the check in button, have the white and gold switch.
 
+> Stretch Goal: Users will need to be within a certain geolocation of the event to be able to check in. Or they will need to input a code given to them by the event coordinator.
+
 ### Personal Attendance Page
 
 ![Attendance Page With example rows](./images/PersonalAttendancePage.png)
 Page will show all the attendance records of the logged in user in a list format which can be filtered and sorted in any way the user would like. Default will be sorted by time in decreasing order top to bottom. User has option to delete attendance records - for case of checking into wrong event. Download icon for downloading as CSV.
 
+### Event List Page
+
+![EventListPage](images/EventListPage.png)
+On the event list page, Chris Chair can view all of their events (ones that they have made). They can create new events, go to the credit report page, view individual event reports, and edit their events. Anna Admin will see all events created by anyone and have the power to edit any.
+
+The edit icon will appear for upcoming events, and the user search icon will appear for all previous events.
+
 ### Event Creation/Edit Page
 
-### Event Attendance/Credit Fulfillment Page
+![EventCreationPage](images/EventCreationEditorPage.png)
+This is the page that will be used to input all event data. When editing an existing event, the top text will say edit event and the create button will be swapped with a delete button and a save button.
+
+Hopefully we can have the calendar icon open a calendar select box and the time icon do something similar for the time.
+
+### Event Attendance Report Page
+
+![EventAttendanceReport](images/EventReportPage.png)
+
+This will display a list of users who checked into that event. Clicking on the pencil icon will take Chris Chair back to the event editing page. Clicking on the user plus icon will allow Chris Chair to add a new user and the user minus sign to remove an attendance. They can also download this file as a .csv by clicking on the download button.
+
+### Credit Report Page
+
+![CreditReportPage](images/CreditReportPage.png)
+
+Once a credit is selected, the table will populate with all active users and if they have satisfied that requirement. It will list all events that are counting towards that credit. For chapter, we will show the number attended out of the total number of chapters held so far. The download button will download a csv for all of the credits. Users can also sort by satisfied first or missing first.
 
 ### Admin Page
 
@@ -224,7 +255,7 @@ Page will show all the attendance records of the logged in user in a list format
 
 ## Technical Implementation
 
-The old website uses a React + Firebase tech stack. For the improved website, I will employ [`Next.js`](https://nextjs.org/) (React Framework) + Firebase for data storage. If backend service functions are required, I may look into serverless functions through google/firebase.
+The old website uses a React + Firebase tech stack. For the improved website, I will employ [`Next.js`](https://nextjs.org/) (React Framework) + Supabase for data storage.
 
 For CSS Styling, I will most likely use [`Tailwindcss`](https://tailwindcss.com/) as there is built in support in Next.
 
