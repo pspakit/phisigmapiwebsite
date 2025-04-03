@@ -168,6 +168,8 @@ Icons for the website will come from [Lucide](https://lucide.dev/) as they are f
 
 ## Wireframes
 
+> To view the most up to date wireframes visit the [figma](https://www.figma.com/design/sKNe1hVge5LszQ0iAGazIE/psp-website?node-id=0-1&t=Fhi4I6JaRONad2zI-1)
+
 ### External Homepage
 
 ![Landing Page View](./images/External_Homepage1.png)
