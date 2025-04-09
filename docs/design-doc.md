@@ -246,6 +246,10 @@ Once a credit is selected, the table will populate with all active users and if 
 
 ### Admin Page
 
+![Admin Page](images/Admin.png)
+
+In this page, the admin will primarily work on the left side of the screen, changing roles between users. This is where they will be able to "confirm an account" by setting a users role to member, or promote/demote members to chairs and admins. On the right side of the screen, the Admin will control what permissions each role has. Each action will have a string and it will be matched against the permissions set for that user when attempting to make that action. In addition, the resource being accessed will be matched against the resource allowed for that action. As long as the user has all those permission, the action will execute.
+
 ## Possible Future Development
 
 - Allow chairs to give credits without needing to create an event
