@@ -167,10 +167,10 @@ export default function About() {
                         <img src="pictures/NCR_Kaylee_Robertson.jpg" alt="NCR"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/CorSec_Emma_S.jpg" alt="Corresponding Secretary"></img>
+                        <img src="pictures/Fellowship_Adele.jpg" alt="Fellowship"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Historian_Emma_M.jpg" alt="Historian"></img>
+                        <img src="pictures/Fellowship_Ava.jpg" alt="Fellowship"></img>
                     </div>
                 </div>
   
