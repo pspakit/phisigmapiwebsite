@@ -151,6 +151,7 @@ export default function Recruitment() {
             <img
               className="has-text-centered"
               src="pictures/recruitment_fall_2025.jpg"
+              src="pictures/Recruitment_Fall_2025_Part2.jpg"
               alt="Recruitment Calendar"
             ></img>
           </div>
