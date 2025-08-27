@@ -164,7 +164,7 @@ export default function About() {
                   
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/NCR_Kaylee_Robertson" alt="NCR"></img>
+                        <img src="pictures/NCR_Kaylee_Robertson.jpg" alt="NCR"></img>
                     </div>
                     <div className="mission-col1">
                         <img src="pictures/CorSec_Emma_S.jpg" alt="Corresponding Secretary"></img>
