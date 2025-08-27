@@ -583,20 +583,28 @@
   }
 
   .mission-row1 {
-    margin-bottom: -6px;
-  }
-
-  .mission-row1::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;             /* replaces the old column padding spacing */
+  margin-bottom: 0;      /* was -6px; remove the negative margin */
+}
 
   .mission-col1 {
-    float: left;
-    width: 33.33%;
-    padding: 20px;
-  }
+  /* remove float and width */
+  /* float: left; */
+  /* width: 33.33%; */
+  padding: 0;            /* was 20px; spacing now handled by grid gap */
+  aspect-ratio: 1 / 1;   /* keep all tiles same height */
+  overflow: hidden;      /* crop overflow so tiles stay clean */
+  background: #f2f2f2;   /* subtle placeholder if an image fails */
+  border-radius: 8px;    /* optional */
+}
+  .mission-col1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* fills the square without distortion */
+  display: block;        /* avoid inline-gap quirks */
+}
 
   .mission-row2 {
     margin-bottom: -6px;
