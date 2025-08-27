@@ -173,7 +173,40 @@ export default function About() {
                         <img src="pictures/Fellowship_Ava.jpg" alt="Fellowship"></img>
                     </div>
                 </div>
-  
+                
+                  <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Scholarship_Lillie.jpg" alt="Scholarship"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Service_Sydney.jpg" alt="Service"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/ICR_Lauren.jpg" alt="ICR"></img>
+                    </div>
+                </div>      
+                    <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/ICR_Nick.jpg" alt="ICR"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/IP_Ben.jpg" alt="IP"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/IP_Bella.jpg" alt="IP"></img>
+                    </div>
+                </div>
+                    <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Recruitment_Sean.jpg" alt="Recruitment"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Recruitment_Tristan.jpg" alt="Recruitment"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/ICR_Lauren.jpg" alt="ICR"></img>
+                    </div>
+                </div>
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer"z className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
