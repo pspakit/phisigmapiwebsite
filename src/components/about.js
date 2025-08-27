@@ -161,7 +161,18 @@ export default function About() {
                         <img src="pictures/Historian_Emma_M.jpg" alt="Historian"></img>
                     </div>
                 </div>
-
+                  
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/NCR_Kaylee_Robertson" alt="NCR"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/CorSec_Emma_S.jpg" alt="Corresponding Secretary"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Historian_Emma_M.jpg" alt="Historian"></img>
+                    </div>
+                </div>
   
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer"z className="fa fa-instagram"> </a>
