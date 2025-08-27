@@ -599,6 +599,9 @@
   display: block;                  /* remove inline whitespace */
   border-radius: 8px;              /* optional styling */
 }
+  .mission-row1:first-of-type {
+  padding-top: 30px;               /* adds space above the very first row */
+}
   .mission-row2 {
     margin-bottom: -6px;
     background-color: #522874;
