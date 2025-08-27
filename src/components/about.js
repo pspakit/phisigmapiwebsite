@@ -155,81 +155,14 @@ export default function About() {
                         <img src="pictures/TreasurerAlumniChair_Matthew_Taylor.jpg" alt="Treasurer"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Ava_Reeder.png" alt="Treasurer"></img>
+                        <img src="pictures/CorSec_Emma_S.jpg" alt="Corresponding Secretary"></img>
                     </div>
                     <div className="mission-col1">
                         <img src="pictures/Historian_Emma_M.jpg" alt="Historian"></img>
                     </div>
                 </div>
 
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/Riley_Richardson_Exec.png" alt="Corresponding Secretary"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Angel_Chen.png" alt="New Class Represontative•"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/SydneyStandardsScholarship.JPEG" alt="Scholarship/Standards"></img>
-                    </div>
-                </div>
-
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/AndrewICR.JPEG" alt="ICR"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/MaryRecruitmentandScholarship.JPEG" alt="Recruitment/Scholarship"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/DeborahService.JPEG" alt="Service"></img>
-                    </div>
-                </div> 
- 
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/CassidyIT.png" alt="IT"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/CourtneyPR.JPEG" alt="PR"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/RachelREcruitment.JPEG" alt="Recruitment"></img>
-                    </div>
-                </div>
-
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/ChrisFundrasiing.JPEG" alt="Fundraising"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/SofiaIP.JPEG" alt="IP"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/EmileyAlumni.JPEG" alt="Alumni"></img>
-                    </div>
-                </div>
-
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/Skylar_Fellowship_IMChair.JPEG" alt="Fellowship/IM"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Olivia_FellowshipNIMChair.JPEG" alt="Fellowship/IM"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/TaylorAlumni.JPEG" alt="Alumni"></img>
-                    </div>
-                </div>
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/HannahLeadership.JPEG" alt="Leadership"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/DazeyIP (2).JPEG" alt="IP"></img>
-                    </div>
-                </div>
-
+  
                 <section className="footer-container">
                     <a href="https://www.instagram.com/phisigmapiunc/" target="_blank" rel="noreferrer"z className="fa fa-instagram"> </a>
                     <h1 className="has-text-centered">PHI SIGMA PI - ALPHA KAPPA CHAPTER</h1>
