@@ -147,9 +147,10 @@ export default function Recruitment() {
               marginBottom: 10,
             }}
           >
+
             <img
               className="has-text-centered"
-              src="recruitment_fall_2025.png"
+              src="recruitment_fall_2025.jpg"
               alt="Recruitment Calendar"
             ></img>
           </div>
