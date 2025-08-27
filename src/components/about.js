@@ -131,34 +131,34 @@ export default function About() {
                         <img src="pictures/President_Deb_Brown.jpg" alt="President"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Josh_Shooman.png" alt="Vice President"></img>
+                        <img src="pictures/VP_Croft.jpg" alt="Vice President"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Payton_Emerick.png" alt="Parliamentarian"></img>
-                    </div>
-                </div>
-
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/Ray_Adjah.png" alt="Recording Secretary"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Hannah_Vernile.png" alt="Initiate Advisor"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Ellie_Duwel.png" alt="Initiate Advisor"></img>
+                        <img src="pictures/Parl_Izzy_Foley.jpg" alt="Parliamentarian"></img>
                     </div>
                 </div>
 
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Skylar_Lewis_Exec.png" alt="Treasurer"></img>
+                        <img src="pictures/RecSec_Anna_L.jpg" alt="Recording Secretary"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/IA_Maddie_Galyon.jpg" alt="Initiate Advisor"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/IA_Chris_Lopez.jpg" alt="Initiate Advisor"></img>
+                    </div>
+                </div>
+
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/TreasurerAlumniChair_Matthew_Taylor.jpg" alt="Treasurer"></img>
                     </div>
                     <div className="mission-col1">
                         <img src="pictures/Ava_Reeder.png" alt="Treasurer"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Olivia_Shelton_Exec.png" alt="Historian"></img>
+                        <img src="pictures/Historian_Emma_M.jpg" alt="Historian"></img>
                     </div>
                 </div>
 
