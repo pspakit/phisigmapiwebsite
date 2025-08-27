@@ -128,7 +128,7 @@ export default function About() {
                     {/*here you're going to change all of this to the new graphics of exec/chair*/}
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/President_Deb_Brown.png" alt="President"></img>
+                        <img src="pictures/President_Deb_Brown.jpg" alt="President"></img>
                     </div>
                     <div className="mission-col1">
                         <img src="pictures/Josh_Shooman.png" alt="Vice President"></img>
