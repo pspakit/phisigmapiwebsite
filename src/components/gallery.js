@@ -89,7 +89,7 @@ export default function Gallery() {
                         <img src="pictures/kazoo.jpg" alt="Kazoo"></img>
                         <img src="pictures/zack_efe_ray.jpg" alt="Zack and Efe and Ray"></img>
                         <img src="pictures/snow.jpg" alt="Snow"></img>
-                        <img src="pictures/recruitment_fall_2025.png" alt="Snow"></img>
+                        <img src="pictures/recruitment_fall_2025.jpg" alt="Recruitment Calendar"></img>
                     </div>
                     <div className="column">
                         <img src="pictures/lauren_will.jpg" alt="Lauren and will"></img>
