@@ -138,24 +138,30 @@ export default function Recruitment() {
           <h4>Recruitment Calendar</h4>
         </section>
 
-        <div className="mission-row">
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              marginBottom: 10,
-            }}
-          >
-
-            <img
-              className="has-text-centered"
-              src="pictures/recruitment_fall_2025.jpg"
-              src="pictures/Recruitment_Fall_2025_Part2.jpg"
-              alt="Recruitment Calendar"
-            ></img>
-          </div>
-        </div>
+      <div className="mission-row">
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      marginBottom: 10,
+      gap: "10px", // adds space between images
+    }}
+  >
+    <img
+      className="has-text-centered"
+      src="pictures/recruitment_fall_2025.jpg"
+      alt="Recruitment Calendar Part 1"
+      style={{ width: "45%", height: "auto" }}
+    />
+    <img
+      className="has-text-centered"
+      src="pictures/Recruitment_Fall_2025_Part2.jpg"
+      alt="Recruitment Calendar Part 2"
+      style={{ width: "45%", height: "auto" }}
+    />
+  </div>
+</div>
 
         <section className="special-container has-text-centered">
           <h4>What does my full recruitment timeline look like?</h4>
