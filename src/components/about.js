@@ -204,7 +204,30 @@ export default function About() {
                         <img src="pictures/Recruitment_Tristan.jpg" alt="Recruitment"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/ICR_Lauren.jpg" alt="ICR"></img>
+                        <img src="pictures/Leadership_Alex.jpg" alt="Leadership"></img>
+                    </div>
+                </div>
+
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Leadership_Michael.jpg" alt="Leadership"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Alumni_Miguel.jpg" alt="Alumni"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Standards_Sydney.jpg" alt="Standards"></img>
+                    </div>
+                </div>
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Fundraising_Caitlyn.jpg" alt="Fundraising"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/PR_Grant.jpg" alt="PR"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/IT_Sofia.jpg" alt="IT"></img>
                     </div>
                 </div>
                 <section className="footer-container">
