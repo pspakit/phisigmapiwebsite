@@ -157,7 +157,7 @@ export default function Payment() {
             If you would like to pay the dues <b>in full</b>, change the
             quantity to 3
           </p>
-          <p>Initiates: $276 | Siblings: $171</p>
+          <p>Initiates: $372 | Siblings: $267</p>
           <p>
             If you are paying an <b>installment</b> of the payment plan, keep
             the quantity at 1
