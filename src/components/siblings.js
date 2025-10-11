@@ -25,7 +25,7 @@ export default function Siblings() {
         </a>
       </div>
       <div>
-        <section className="special-container">
+        /*<section className="special-container">
           <h1 className="has-text-centered">Calendar</h1>
         </section>
         <section className="container">
@@ -36,7 +36,7 @@ export default function Siblings() {
             width="100%"
             height="700"
           ></iframe>
-        </section>
+        </section>*/
         <section className="special-container">
           <h1 className="has-text-centered">Attendance</h1>
         </section>
