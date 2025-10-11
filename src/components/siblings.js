@@ -19,18 +19,7 @@ export default function Siblings() {
       <div>
         <section className="special-container">
           <h1 className="has-text-centered">Attendance</h1>
-        </section>
-        <section className="email-container">
-          <h4 className="has-text-centered">
-            <a
-              href="https://docs.google.com/presentation/d/1gr20qzGZqRTzWHl_PQlN4WBGIs1uAvmUyxYsmF8tf9k/edit?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
-              How-To: Attendance on Flare
-            </a>
-          </h4>
-        </section>
+            </section>
         <section className="email-container">
           <h4 className="has-text-centered">
             <a
@@ -42,6 +31,18 @@ export default function Siblings() {
             </a>
           </h4>
         </section>
+        </section>
+        <section className="email-container">
+          <h4 className="has-text-centered">
+            <a
+              href="https://docs.google.com/presentation/d/1gr20qzGZqRTzWHl_PQlN4WBGIs1uAvmUyxYsmF8tf9k/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              How-To: Attendance on Flare
+            </a>
+          </h4>
+
 
         <section className="special-container">
           <h1 className="has-text-centered">Point Form</h1>
