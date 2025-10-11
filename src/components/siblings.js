@@ -32,7 +32,7 @@ export default function Siblings() {
         <section className="email-container">
           <h4 className="has-text-centered">
             <a
-              href="https://www.pspakattendance.com"
+              href="https://flare-event.app.link/KrQ8DSaKmXb"
               target="_blank"
               rel="noreferrer"
             >
