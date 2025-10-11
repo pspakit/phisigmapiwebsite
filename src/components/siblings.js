@@ -27,8 +27,8 @@ export default function Siblings() {
             title="Chapter Calendar"
             src="https://calendar.google.com/calendar/embed?src=a3c07a6889087123e4fa03cf836ea336ab9232b24dcbb41feaa468cf234dc4de%40group.calendar.google.com&ctz=America%2FNew_York"
             style={{ border: 0 }}
-            width="100%"
-            height="600"
+            width="150%"
+            height="800"
             frameBorder="0"
             scrolling="no"
           ></iframe>
