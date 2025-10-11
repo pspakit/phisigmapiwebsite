@@ -1,51 +1,55 @@
 export default function Siblings() {
   return (
     <div id="top">
-      <div className="topnav">
-        <a href="/">
-          <div className="logo-image">
-            <img src="pictures/PSP_Shield_4c.png" alt="PSP Shield" />
-          </div>
-        </a>
-        <a href="/about">About</a>
-        <a href="/recruitment">Recruitment</a>
-        <a href="/gallery">Gallery</a>
-        <a href="/payment">Payment</a>
-        <a className="active" href="/siblings">
-          Siblings
-        </a>
-      </div>
+      {/* ✅ Wrap ALL content inside one single div */}
+      <div>
+        <div className="topnav">
+          <a href="/">
+            <div className="logo-image">
+              <img src="pictures/PSP_Shield_4c.png" alt="PSP Shield" />
+            </div>
+          </a>
+          <a href="/about">About</a>
+          <a href="/recruitment">Recruitment</a>
+          <a href="/gallery">Gallery</a>
+          <a href="/payment">Payment</a>
+          <a className="active" href="/siblings">
+            Siblings
+          </a>
+        </div>
 
-<div>
-  <section className="special-container">
-    <h1 className="has-text-centered">Attendance</h1>
-  </section>
+        {/* ---- ATTENDANCE + FLARE ---- */}
+        <div>
+          <section className="special-container">
+            <h1 className="has-text-centered">Attendance</h1>
+          </section>
 
-  <section className="email-container">
-    <h4 className="has-text-centered">
-      <a
-        href="https://flare-event.app.link/KrQ8DSaKmXb"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Join Our Flare!
-      </a>
-    </h4>
-  </section>
+          <section className="email-container">
+            <h4 className="has-text-centered">
+              <a
+                href="https://flare-event.app.link/KrQ8DSaKmXb"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Join Our Flare!
+              </a>
+            </h4>
+          </section>
 
-  <section className="email-container">
-    <h4 className="has-text-centered">
-      <a
-        href="https://docs.google.com/presentation/d/1gr20qzGZqRTzWHl_PQlN4WBGIs1uAvmUyxYsmF8tf9k/edit?usp=sharing"
-        target="_blank"
-        rel="noreferrer"
-      >
-        How-To: Attendance on Flare
-      </a>
-    </h4>
-  </section>
-</div>
+          <section className="email-container">
+            <h4 className="has-text-centered">
+              <a
+                href="https://docs.google.com/presentation/d/1gr20qzGZqRTzWHl_PQlN4WBGIs1uAvmUyxYsmF8tf9k/edit?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                How-To: Attendance on Flare
+              </a>
+            </h4>
+          </section>
+        </div>
 
+        {/* ---- POINT FORM ---- */}
         <section className="special-container">
           <h1 className="has-text-centered">Point Form</h1>
         </section>
@@ -61,6 +65,7 @@ export default function Siblings() {
           </h4>
         </section>
 
+        {/* ---- SIBLING REQUIREMENTS ---- */}
         <section className="special-container">
           <h1 className="has-text-centered">Sibling Requirements</h1>
         </section>
@@ -74,6 +79,7 @@ export default function Siblings() {
           <p>Ritual</p>
         </section>
 
+        {/* ---- ABSENCES ---- */}
         <section className="special-container">
           <h1 className="has-text-centered">Absences</h1>
         </section>
@@ -95,6 +101,7 @@ export default function Siblings() {
           ></iframe>
         </section>
 
+        {/* ---- CHAP-UP ARCHIVE ---- */}
         <section className="special-container">
           <h1 className="has-text-centered">Chap-Up Archive</h1>
         </section>
@@ -113,6 +120,7 @@ export default function Siblings() {
           </h4>
         </section>
 
+        {/* ---- SIBLING DIRECTORY ---- */}
         <section className="special-container">
           <h1 className="has-text-centered">Sibling Directory</h1>
         </section>
@@ -126,6 +134,7 @@ export default function Siblings() {
           ></iframe>
         </section>
 
+        {/* ---- FOOTER ---- */}
         <section className="footer-container">
           <a
             href="https://www.instagram.com/phisigmapiunc/"
@@ -145,4 +154,3 @@ export default function Siblings() {
     </div>
   );
 }
-
