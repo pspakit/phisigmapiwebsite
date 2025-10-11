@@ -23,7 +23,7 @@ export default function Siblings() {
         <section className="container-attendance-iframe">
           <iframe
             title="Join our Flare!"
-            src="https://flare-event.app.link/KrQ8DSaKmXb"
+            <img src="How-To Flare Attendance.png"/>
             scrolling="auto"
             width="100%"
             height="400px"
