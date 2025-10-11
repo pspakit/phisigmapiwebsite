@@ -172,13 +172,7 @@ export default function Siblings() {
         </section>
 
         <section className="container">
-          <iframe
-            title="Sibling Directory"
-            src="https://docs.google.com/spreadsheets/d/1yjdw9NJ-DGrEq4yTi9Zj8_UaiiOsZYeP3mV_TMBhtXY/edit?usp=sharing"
-            scrolling="auto"
-            width="100%"
-            height="700"
-          ></iframe>
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJE4bsKhB5F3cifLYT_FZv6XwvOWEkVCqxMLJDcjgzDt4Tuspwqancu2dxgbT3PNM9HMwWprUbxqoT/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
         </section>
 
         {/* ---- FOOTER ---- */}
