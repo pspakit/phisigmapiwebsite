@@ -16,15 +16,14 @@ export default function Siblings() {
         </a>
       </div>
 
-      {/* WRAPPING ALL REMAINING SECTIONS IN A SINGLE DIV TO FIX THE ERROR */}
       <div>
         <section className="special-container">
           <h1 className="has-text-centered">Attendance</h1>
         </section>
         <section className="container-attendance-iframe">
           <iframe
-            title="PSP Attendance Site"
-            src="https://www.pspakattendance.com"
+            title="Join our Flare!"
+            src="https://flare-event.app.link/KrQ8DSaKmXb"
             scrolling="auto"
             width="100%"
             height="400px"
