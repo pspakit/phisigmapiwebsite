@@ -158,7 +158,7 @@ export default function Siblings() {
         <section className="container">
           <iframe
             title="Sibling Directory"
-            src="https://docs.google.com/spreadsheets/d/13oz7aVfSRDPN_383d2G-QR63aqhWVs7WqJcGszQOCVc/edit?widget=true&amp;headers=false"
+            src="https://docs.google.com/spreadsheets/d/1yjdw9NJ-DGrEq4yTi9Zj8_UaiiOsZYeP3mV_TMBhtXY/edit?usp=sharing"
             scrolling="auto"
             width="100%"
             height="700"
