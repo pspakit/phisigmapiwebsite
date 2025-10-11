@@ -16,33 +16,35 @@ export default function Siblings() {
         </a>
       </div>
 
-      <div>
-        <section className="special-container">
-          <h1 className="has-text-centered">Attendance</h1>
-            </section>
-        <section className="email-container">
-          <h4 className="has-text-centered">
-            <a
-              href="https://flare-event.app.link/KrQ8DSaKmXb"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Join Our Flare!
-            </a>
-          </h4>
-        </section>
-        </section>
-        <section className="email-container">
-          <h4 className="has-text-centered">
-            <a
-              href="https://docs.google.com/presentation/d/1gr20qzGZqRTzWHl_PQlN4WBGIs1uAvmUyxYsmF8tf9k/edit?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
-              How-To: Attendance on Flare
-            </a>
-          </h4>
+<div>
+  <section className="special-container">
+    <h1 className="has-text-centered">Attendance</h1>
+  </section>
 
+  <section className="email-container">
+    <h4 className="has-text-centered">
+      <a
+        href="https://flare-event.app.link/KrQ8DSaKmXb"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Join Our Flare!
+      </a>
+    </h4>
+  </section>
+
+  <section className="email-container">
+    <h4 className="has-text-centered">
+      <a
+        href="https://docs.google.com/presentation/d/1gr20qzGZqRTzWHl_PQlN4WBGIs1uAvmUyxYsmF8tf9k/edit?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        How-To: Attendance on Flare
+      </a>
+    </h4>
+  </section>
+</div>
 
         <section className="special-container">
           <h1 className="has-text-centered">Point Form</h1>
