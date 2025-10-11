@@ -21,7 +21,7 @@ export default function Siblings() {
         {/* ---- ATTENDANCE + FLARE ---- */}
         <div>
           <section className="special-container">
-            <h1 className="has-text-centered">Attendance</h1>
+            <h1 className="has-text-centered">Flare Attendance</h1>
           </section>
 
           <section className="email-container">
