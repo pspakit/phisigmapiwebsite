@@ -21,7 +21,7 @@ export default function Siblings() {
         {/* ---- ATTENDANCE + FLARE ---- */}
         <div>
           <section className="special-container">
-            <h1 className="has-text-centered">Flare Attendance</h1>
+            <h1 className="has-text-centered">Attendance</h1>
           </section>
 
           <section className="email-container">
@@ -47,6 +47,19 @@ export default function Siblings() {
               </a>
             </h4>
           </section>
+                  
+          <section className="email-container">
+            <h4 className="has-text-centered">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe_7KowF93kMQzNaV36cXXNOAt5TGSHH-NjxndHvfqO4axHFQ/viewform"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Absence Excuse Form
+              </a>
+            </h4>
+          </section>
+              
         </div>
 
         {/* ---- POINT FORM ---- */}
