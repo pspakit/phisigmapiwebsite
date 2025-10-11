@@ -36,7 +36,7 @@ export default function Siblings() {
               target="_blank"
               rel="noreferrer"
             >
-              https://flare-event.app.link/KrQ8DSaKmXb
+              Join Our Flare!
             </a>
           </h4>
         </section>
