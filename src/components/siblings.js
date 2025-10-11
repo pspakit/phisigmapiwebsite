@@ -20,14 +20,16 @@ export default function Siblings() {
         <section className="special-container">
           <h1 className="has-text-centered">Attendance</h1>
         </section>
-        <section className="container-attendance-iframe">
-          <iframe
-            title="Join our Flare!"
-            <img src="How-To Flare Attendance.png"/>
-            scrolling="auto"
-            width="100%"
-            height="400px"
-          ></iframe>
+        <section className="email-container">
+          <h4 className="has-text-centered">
+            <a
+              href="https://docs.google.com/presentation/d/1gr20qzGZqRTzWHl_PQlN4WBGIs1uAvmUyxYsmF8tf9k/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              How-To: Attendance on Flare
+            </a>
+          </h4>
         </section>
         <section className="email-container">
           <h4 className="has-text-centered">
