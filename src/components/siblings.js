@@ -1,19 +1,10 @@
-//import { useNavigate } from "react-router-dom";
-
 export default function Siblings() {
-  //const nav = useNavigate();
-
-  /*const auth1 = sessionStorage.getItem('Auth Token');
-    if (auth1 === null) {
-        nav('/')
-    }*/
-
   return (
     <div id="top">
       <div className="topnav">
         <a href="/">
           <div className="logo-image">
-            <img src="pictures/PSP_Shield_4c.png" alt="PSP Shield"></img>
+            <img src="pictures/PSP_Shield_4c.png" alt="PSP Shield" />
           </div>
         </a>
         <a href="/about">About</a>
@@ -25,6 +16,8 @@ export default function Siblings() {
         </a>
       </div>
 
+      {/* WRAPPING ALL REMAINING SECTIONS IN A SINGLE DIV TO FIX THE ERROR */}
+      <div>
         <section className="special-container">
           <h1 className="has-text-centered">Attendance</h1>
         </section>
@@ -48,6 +41,7 @@ export default function Siblings() {
             </a>
           </h4>
         </section>
+
         <section className="special-container">
           <h1 className="has-text-centered">Point Form</h1>
         </section>
@@ -62,10 +56,10 @@ export default function Siblings() {
             </a>
           </h4>
         </section>
+
         <section className="special-container">
           <h1 className="has-text-centered">Sibling Requirements</h1>
         </section>
-
         <section className="another-container has-text-centered">
           <p>1 Service Event</p>
           <p>1 Scholarship Event</p>
@@ -75,10 +69,10 @@ export default function Siblings() {
           <p>Retreat</p>
           <p>Ritual</p>
         </section>
+
         <section className="special-container">
           <h1 className="has-text-centered">Absences</h1>
         </section>
-
         <section className="no-space-container has-text-centered">
           <p>
             You are allowed 2 absences from chapter this semester! One can be
@@ -96,6 +90,7 @@ export default function Siblings() {
             height="700"
           ></iframe>
         </section>
+
         <section className="special-container">
           <h1 className="has-text-centered">Chap-Up Archive</h1>
         </section>
@@ -113,6 +108,7 @@ export default function Siblings() {
             </a>
           </h4>
         </section>
+
         <section className="special-container">
           <h1 className="has-text-centered">Sibling Directory</h1>
         </section>
@@ -125,6 +121,7 @@ export default function Siblings() {
             height="700"
           ></iframe>
         </section>
+
         <section className="footer-container">
           <a
             href="https://www.instagram.com/phisigmapiunc/"
@@ -138,11 +135,10 @@ export default function Siblings() {
             PHI SIGMA PI - ALPHA KAPPA CHAPTER
           </h1>
           <h1 className="has-text-centered">2024</h1>
-          <a href="#top" className="fa fa-arrow-up">
-            {" "}
-          </a>
+          <a href="#top" className="fa fa-arrow-up"> </a>
         </section>
       </div>
     </div>
   );
 }
+
