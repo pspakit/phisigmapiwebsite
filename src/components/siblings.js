@@ -53,10 +53,11 @@ export default function Siblings() {
         <section className="special-container">
           <h1 className="has-text-centered">Point Form</h1>
         </section>
+
         <section className="email-container">
           <h4 className="has-text-centered">
             <a
-              href="https://go.unc.edu/pointsform "
+              href="https://go.unc.edu/pointsform"
               target="_blank"
               rel="noreferrer"
             >
@@ -64,8 +65,7 @@ export default function Siblings() {
             </a>
           </h4>
         </section>
-                
-        </section>
+
         <section className="email-container">
           <h4 className="has-text-centered">
             <a
@@ -82,6 +82,7 @@ export default function Siblings() {
         <section className="special-container">
           <h1 className="has-text-centered">Sibling Requirements</h1>
         </section>
+
         <section className="another-container has-text-centered">
           <p>1 Service Event</p>
           <p>1 Scholarship Event</p>
@@ -96,6 +97,7 @@ export default function Siblings() {
         <section className="special-container">
           <h1 className="has-text-centered">Absences</h1>
         </section>
+
         <section className="no-space-container has-text-centered">
           <p>
             You are allowed 2 absences from chapter this semester! One can be
@@ -104,6 +106,7 @@ export default function Siblings() {
           </p>
           <p>What counts as an excuse?</p>
         </section>
+
         <section className="container">
           <iframe
             title="Excuse Document"
@@ -118,6 +121,7 @@ export default function Siblings() {
         <section className="special-container">
           <h1 className="has-text-centered">Chap-Up Archive</h1>
         </section>
+
         <section className="email-container">
           <h4 className="has-text-centered">
             Follow this link to view past chap-up emails!
@@ -137,6 +141,7 @@ export default function Siblings() {
         <section className="special-container">
           <h1 className="has-text-centered">Sibling Directory</h1>
         </section>
+
         <section className="container">
           <iframe
             title="Sibling Directory"
