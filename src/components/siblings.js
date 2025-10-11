@@ -25,18 +25,18 @@ export default function Siblings() {
         </a>
       </div>
       <div>
-        /*<section className="special-container">
-          <h1 className="has-text-centered">Calendar</h1>
-        </section>
-        <section className="container">
-          <iframe
-            title="Spring 2024 Calendar"
-            src="https://docs.google.com/document/d/17yZjjKKi9fdSwORJXBKe7QdHqDpaYeA_IQfGWq4V_tg/edit?usp=sharing"
-            scrolling="auto"
-            width="100%"
-            height="700"
-          ></iframe>
-        </section>*/
+        //<section className="special-container">
+          //<h1 className="has-text-centered">Calendar</h1>
+        //</section>
+        //<section className="container">
+          //<iframe
+            //title="Spring 2024 Calendar"
+            //src="https://docs.google.com/document/d/17yZjjKKi9fdSwORJXBKe7QdHqDpaYeA_IQfGWq4V_tg/edit?usp=sharing"
+            //scrolling="auto"
+            //width="100%"
+            //height="700"
+          //></iframe>
+        //</section>
         <section className="special-container">
           <h1 className="has-text-centered">Attendance</h1>
         </section>
