@@ -56,11 +56,24 @@ export default function Siblings() {
         <section className="email-container">
           <h4 className="has-text-centered">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfjnvji6GeWaxQAcL4SvS-O3IstH-933oiFshQ_0-g880pFLA/viewform"
+              href="https://go.unc.edu/pointsform "
               target="_blank"
               rel="noreferrer"
             >
-              https://docs.google.com/forms/d/1Uz7wsJhgZNKQfG_CwCzHyEjUmQxtmJrgl6m4ANo5eeU/viewform?edit_requested=true
+              Submit your points for your house here!
+            </a>
+          </h4>
+        </section>
+                
+        </section>
+        <section className="email-container">
+          <h4 className="has-text-centered">
+            <a
+              href="https://go.unc.edu/houses"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check what house you are and your points!
             </a>
           </h4>
         </section>
