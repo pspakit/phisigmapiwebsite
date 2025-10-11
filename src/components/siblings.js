@@ -36,7 +36,7 @@ export default function Siblings() {
               target="_blank"
               rel="noreferrer"
             >
-              www.pspakattendance.com
+              https://flare-event.app.link/KrQ8DSaKmXb
             </a>
           </h4>
         </section>
