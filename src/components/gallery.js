@@ -71,6 +71,7 @@ export default function Gallery() {
                 
                 <div className="row">
                     <div className="column">
+                        <img src= "Fall 2025_rvv.JPEG" alt="Big Little Reveal"></img>
                         <img src="pictures/presidents.jpg" alt="Presidents"></img>
                         <img src="pictures/spencer.jpg" alt="Spencer"></img>
                         <img src="pictures/hug.jpg" alt="Hug"></img>
