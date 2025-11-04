@@ -71,6 +71,7 @@ export default function Gallery() {
 
                 <div className="row">
                     <div className="column">
+                        <img src="pictures/Fall_2025_AbbyI_ChallengeCourse.jpg" alt="Challenge Course"></img>                        
                         <img src="pictures/presidents.jpg" alt="Presidents"></img>
                         <img src="pictures/spencer.jpg" alt="Spencer"></img>
                         <img src="pictures/hug.jpg" alt="Hug"></img>
@@ -91,7 +92,7 @@ export default function Gallery() {
                         <img src="pictures/snow.jpg" alt="Snow"></img>
                     </div>
                     <div className="column">
-                        <img src="pictures/Fall2025_SydneyandCaitlyn.jpg" alt="idk"></img>
+                        <img src="pictures/Fall2025_SydneyandCaitlyn.jpg" alt="Syndey and Caitlyn"></img>
                         <img src="pictures/lauren_will.jpg" alt="Lauren and will"></img>
                         <img src="pictures/squirrel_head.jpg" alt="Squirrel head"></img>
                         <img src="pictures/will_went_phi_sig.jpg" alt="Will went phi sig"></img>
@@ -109,6 +110,7 @@ export default function Gallery() {
                         <img src="pictures/dance_group.jpg" alt="Dance group"></img>
                     </div>
                     <div className="column">
+                        <img src="pictures/Fall_2025_AnanyaBidday.jpg" alt="Ananya Bidday"></img>
                         <img src="pictures/brandon_mac.jpg" alt="Brandon and MacKenna"></img>
                         <img src="pictures/handshake.jpg" alt="Handshake"></img>
                         <img src="pictures/cards.jpg" alt="Cards"></img>
