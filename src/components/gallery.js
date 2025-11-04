@@ -91,7 +91,7 @@ export default function Gallery() {
                         <img src="pictures/snow.jpg" alt="Snow"></img>
                     </div>
                     <div className="column">
-                        <img src="Fall 2025_rvv.jpg" alt="idk"></img>
+                        <img src="pictures/Fall2025_rvv.jpg" alt="idk"></img>
                         <img src="pictures/lauren_will.jpg" alt="Lauren and will"></img>
                         <img src="pictures/squirrel_head.jpg" alt="Squirrel head"></img>
                         <img src="pictures/will_went_phi_sig.jpg" alt="Will went phi sig"></img>
