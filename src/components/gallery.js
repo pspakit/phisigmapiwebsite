@@ -71,6 +71,7 @@ export default function Gallery() {
 
                 <div className="row">
                     <div className="column">
+                        <img src="pictures/Fall_2025_BiGLittleReveal.jpg" alt="Big/Little Reveal"></img>                        
                         <img src="pictures/Fall_2025_AnslieCupcaked.jpg" alt="Anslie Cupcakes"></img>                        
                         <img src="pictures/Fall_2025_AbbyI_ChallengeCourse.jpg" alt="Challenge Course"></img>                        
                         <img src="pictures/presidents.jpg" alt="Presidents"></img>
@@ -93,6 +94,7 @@ export default function Gallery() {
                         <img src="pictures/snow.jpg" alt="Snow"></img>
                     </div>
                     <div className="column">
+                        <img src="pictures/Fall_2025_BidDayMaddness.jpg" alt="Bidday"></img>
                         <img src="pictures/Fall_2025_ArisReece.jpg" alt="Aris and Reece"></img>
                         <img src="pictures/Fall2025_SydneyandCaitlyn.jpg" alt="Syndey and Caitlyn"></img>
                         <img src="pictures/lauren_will.jpg" alt="Lauren and will"></img>
@@ -112,6 +114,7 @@ export default function Gallery() {
                         <img src="pictures/dance_group.jpg" alt="Dance group"></img>
                     </div>
                     <div className="column">
+                        <img src="pictures/Fall_2025_BigLittleBros.jpg" alt="Big/Littles Bros"></img>
                         <img src="pictures/Fall_2025_Ava_Anslie_Sean.jpg" alt="Sibs Working"></img>
                         <img src="pictures/Fall_2025_AnanyaBidday.jpg" alt="Ananya Bidday"></img>
                         <img src="pictures/brandon_mac.jpg" alt="Brandon and MacKenna"></img>
@@ -133,6 +136,7 @@ export default function Gallery() {
                         <img src="pictures/paint.jpg" alt="Paint"></img>
                     </div>
                     <div className="column">
+                        <img src="pictures/Fall_2025_BigLittleMariaHope.png" alt="Maria and Hope"></img>
                         <img src="pictures/Fall_2025_BeckettKalebDom.jpg" alt="Beckett Kaleb and Dom"></img>
                         <img src="pictures/Fall_2025_AndrewJames.jpg" alt="Andrew and James"></img>
                         <img src="pictures/dresses.jpg" alt="Dresses"></img>
@@ -152,6 +156,7 @@ export default function Gallery() {
                         <img src="pictures/tin.jpg" alt="Tin"></img>
                     </div>
                     <div className="column">
+                        <img src="pictures/Fall_2025_BoysBigLittle.jpg" alt="Big/Little Boys"></img>
                         <img src="pictures/Fall_2025_BenBella.jpg" alt="Sibs at Challenge Course"></img>
                         <img src="pictures/Fall_2025_AndrewMiguelLaurenCassidy.jpg" alt="Sibs at Challenge Course"></img>
                         <img src="pictures/heart_squirrel.jpg" alt="Heart Squirrel"></img>
