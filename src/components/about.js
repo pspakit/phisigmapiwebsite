@@ -164,70 +164,56 @@ export default function About() {
                   
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/NCR_Kaylee_Robertson.jpg" alt="NCR"></img>
+                        <img src="pictures/Spring_2026_Reece_Fellowship.png" alt="Fellowship"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Fellowship_Adele.jpg" alt="Fellowship"></img>
+                        <img src="pictures/Spring_2026_Christian_Fellowship.png" alt="Fellowship"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Fellowship_Ava.jpg" alt="Fellowship"></img>
+                        <img src="pictures/Spring_2026_Morgan_Scholarship.png" alt="Scholarship"></img>
                     </div>
                 </div>
                 
                   <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Scholarship_Lillie.jpg" alt="Scholarship"></img>
+                        <img src="pictures/Spring_2026_Lainey_Service.png" alt="Service"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Service_Sydney.jpg" alt="Service"></img>
+                        <img src="pictures/Spring_2026_Hannah_ICR.png" alt="ICR"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/ICR_Lauren.jpg" alt="ICR"></img>
+                        <img src="pictures/Spring_2026_Caitlyn_Fundraising.png" alt="Fundraising"></img>
                     </div>
                 </div>      
                     <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/ICR_Nick.jpg" alt="ICR"></img>
+                        <img src="pictures/Spring_2026_Lang_IP.png" alt="IP"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/IP_Ben.jpg" alt="IP"></img>
+                        <img src="pictures/Spring_2026_Hope_IP" alt="IP"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/IP_Bella.jpg" alt="IP"></img>
+                        <img src="pictures/Spring_2026_Cassey_PR.png" alt="PR"></img>
                     </div>
                 </div>
                     <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Recruitment_Sean.jpg" alt="Recruitment"></img>
+                        <img src="pictures/Spring_2026_Andrew_Recruitment.png" alt="Recruitment"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Recruitment_Tristan.jpg" alt="Recruitment"></img>
+                        <img src="pictures/Spring_2026_Abby_Recruitment.png" alt="Recruitment"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Leadership_Alex.jpg" alt="Leadership"></img>
+                        <img src="pictures/Spring_2026_Sofia_Leadership_IT.png" alt="Leadership and IT"></img>
                     </div>
                 </div>
 
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Leadership_Michael.jpg" alt="Leadership"></img>
+                        <img src="pictures/Spring_2026_Cedra_Leadership_Standards.png" alt="Leadership and Standards"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Alumni_Miguel.jpg" alt="Alumni"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Standards_Sydney.jpg" alt="Standards"></img>
-                    </div>
-                </div>
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/Fundraising_Caitlyn.jpg" alt="Fundraising"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/PR_Grant.jpg" alt="PR"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/IT_Sofia.jpg" alt="IT"></img>
+                        <img src="pictures/Spring_2026_Courtney_Alumni.png" alt="Alumni"></img>
                     </div>
                 </div>
                 <section className="footer-container">
