@@ -150,13 +150,13 @@ export default function Recruitment() {
   >
     <img
       className="has-text-centered"
-      src="pictures/Recruitment_Fall_2025_Part1.jpg"
+      src="pictures/Spring_2026_Recruitment_1.png"
       alt="Recruitment Calendar Part 1"
       style={{ width: "45%", height: "auto" }}
     />
     <img
       className="has-text-centered"
-      src="pictures/Recruitment_Fall_2025_Part2.jpg"
+      src="pictures/Spring_2026_Recruitment_2.png"
       alt="Recruitment Calendar Part 2"
       style={{ width: "45%", height: "auto" }}
     />
