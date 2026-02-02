@@ -176,26 +176,15 @@ export default function About() {
                 
                   <div className="mission-row1">
                     <div className="mission-col1">
+                        <img src="pictures/Spring_2026_Sofia_Leadership_IT.png" alt="Leadership and IT"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Spring_2026_Cedra_Leadership_Standards.png" alt="Leadership and Standards"></img>
+                    </div>
+                    <div className="mission-col1">
                         <img src="pictures/Spring_2026_Lainey_Service.png" alt="Service"></img>
                     </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Hannah_ICR.png" alt="ICR"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Caitlyn_Fundraising.png" alt="Fundraising"></img>
-                    </div>
                 </div>      
-                    <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Lang_IP.png" alt="IP"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Hope_IP.png" alt="IP"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Cassey_PR.png" alt="PR"></img>
-                    </div>
-                </div>
                     <div className="mission-row1">
                     <div className="mission-col1">
                         <img src="pictures/Spring_2026_Andrew_Recruitment.png" alt="Recruitment"></img>
@@ -204,16 +193,27 @@ export default function About() {
                         <img src="pictures/Spring_2026_Abby_Recruitment.png" alt="Recruitment"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Cedra_Leadership_Standards.png" alt="Leadership and Standards"></img>
+                        <img src="pictures/Spring_2026_Courtney_Alumni.png" alt="Alumni"></img>
+                    </div>
+                </div>
+                    <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/Spring_2026_Hope_IP.png" alt="IP"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Spring_2026_Lang_IP.png" alt="IP"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/Spring_2026_Cassey_PR.png" alt="PR"></img>
                     </div>
                 </div>
 
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Sofia_Leadership_IT.png" alt="Leadership and IT"></img>
+                        <img src="pictures/Spring_2026_Hannah_ICR.png" alt="ICR"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Courtney_Alumni.png" alt="Alumni"></img>
+                        <img src="pictures/Spring_2026_Caitlyn_Fundraising.png" alt="Fundraising"></img>
                     </div>
                 </div>
                 <section className="footer-container">
