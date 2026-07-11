@@ -270,9 +270,7 @@ export default function Recruitment() {
           </p>
           <p>
             <strong>
-              We are able to waive up to 2 of the above requirements, please
-              contact the rush chairs if you have concerns about meeting the
-              requirements.
+              Phi Sigma Pi can waive up to two Membership eligibility requirements per Initiate. This means that if a Potential New Member does not meet the 3.0 GPA threshold, the Chapter can choose to waive this requirement.
             </strong>
           </p>
           <br></br>
