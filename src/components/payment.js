@@ -205,7 +205,7 @@ export default function Payment() {
           <h1 className="has-text-centered">
             PHI SIGMA PI - ALPHA KAPPA CHAPTER
           </h1>
-          <h1 className="has-text-centered">2023</h1>
+          <h1 className="has-text-centered">2026</h1>
           <a href="#top" className="fa fa-arrow-up">
             {" "}
           </a>
