@@ -222,7 +222,7 @@ export default function Recruitment() {
               <p>
                 Submit your{" "}
                 <a
-                  href="https://docs.google.com/document/d/1YHrglFb6iwFfEx0nkamgC3Z-mB-Gv4-RuXc01gDZI2A/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/1eiCmVNGOxVHB6y841hx8X3HhLFxO7g_aBvub6A8Av_M/edit?tab=t.0"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -412,17 +412,17 @@ export default function Recruitment() {
         <section className="email-container">
           <h4 className="has-text-centered">
             <a
-              href="https://docs.google.com/document/d/e/2PACX-1vQmDsxMuC_st5ivG1OmzgON1VXKRt-_QGDotPQZIa5OvFDtXY35jUTqhHwHvAjcliDvE8kEhjjLcHpj/pub?embedded=true"
+              href="https://docs.google.com/document/d/1eiCmVNGOxVHB6y841hx8X3HhLFxO7g_aBvub6A8Av_M/edit?embedded=true"
               target="_blank"
               rel="noreferrer"
             >
-              Spring Recruitment 2024 - Fact Sheet
+              Spring Recruitment 2026 - Fact Sheet
             </a>
           </h4>
         </section>
         <section className="container">
           <iframe
-            title="Spring 2024 Recruitment Fact Sheet"
+            title="Spring 2026 Recruitment Fact Sheet"
             src="https://docs.google.com/document/d/1eiCmVNGOxVHB6y841hx8X3HhLFxO7g_aBvub6A8Av_M/edit?embedded=true"
             scrolling="auto"
             width="100%"
@@ -442,7 +442,7 @@ export default function Recruitment() {
           <h1 className="has-text-centered">
             PHI SIGMA PI - ALPHA KAPPA CHAPTER
           </h1>
-          <h1 className="has-text-centered">2024</h1>
+          <h1 className="has-text-centered">2026</h1>
           <a href="#top" className="fa fa-arrow-up">
             {" "}
           </a>
