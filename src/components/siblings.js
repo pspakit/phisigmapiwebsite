@@ -191,7 +191,7 @@ export default function Siblings() {
           <h1 className="has-text-centered">
             PHI SIGMA PI - ALPHA KAPPA CHAPTER
           </h1>
-          <h1 className="has-text-centered">2024</h1>
+          <h1 className="has-text-centered">2026</h1>
           <a href="#top" className="fa fa-arrow-up"> </a>
         </section>
       </div>
