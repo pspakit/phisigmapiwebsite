@@ -40,7 +40,7 @@ export default function Siblings() {
         <section className="container">
           <iframe
             title="Chapter Calendar"
-            src="https://calendar.google.com/calendar/embed?src=a3c07a6889087123e4fa03cf836ea336ab9232b24dcbb41feaa468cf234dc4de%40group.calendar.google.com&ctz=America%2FNew_York"
+            src="https://calendar.google.com/calendar/embed?src=5acf7802ebbf97d314095d3e1e6dba57293735ce502bf3f5c0591dae9e5a668e%40group.calendar.google.com&ctz=America%2FNew_York"
             style={{ border: 0 }}
             width="100%"
             height="800"
