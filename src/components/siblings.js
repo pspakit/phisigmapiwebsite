@@ -20,12 +20,27 @@ export default function Siblings() {
   
         {/* ---- CALENDAR ---- */}
         <section className="special-container">
-          <h1 className="has-text-centered">Calendar</h1>
+          <h1 className="has-text-centered">PSAK Calendar</h1>
         </section>
         <section className="container">
           <iframe
             title="Chapter Calendar"
             src="https://calendar.google.com/calendar/embed?src=a3c07a6889087123e4fa03cf836ea336ab9232b24dcbb41feaa468cf234dc4de%40group.calendar.google.com&ctz=America%2FNew_York"
+            style={{ border: 0 }}
+            width="100%"
+            height="800"
+            frameBorder="0"
+            scrolling="no"
+          ></iframe>
+        </section>
+
+        <section className="special-container">
+          <h1 className="has-text-centered">Flare Calendar</h1>
+        </section>
+        <section className="container">
+          <iframe
+            title="Chapter Calendar"
+            src="https://calendar.google.com/calendar/u/0?cid=NWFjZjc4MDJlYmJmOTdkMzE0MDk1ZDNlMWU2ZGJhNTcyOTM3MzVjZTUwMmJmM2Y1YzA1OTFkYWU5ZTVhNjY4ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
             style={{ border: 0 }}
             width="100%"
             height="800"
