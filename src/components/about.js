@@ -123,97 +123,97 @@ export default function About() {
                 </section>
 
                 <section className="special-container">
-                    <h1 className="has-text-centered">Leadership</h1>
+                    <h1 className="has-text-centered">Board Members</h1>
                 </section>
                     {/*here you're going to change all of this to the new graphics of exec/chair*/}
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/testing.jpg" alt="testing"></img>
+                        <img src="pictures/emma_prez.png" alt="President"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/VP_Croft.jpg" alt="Vice President"></img>
+                        <img src="pictures/reese_vp.png" alt="Vice President"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Parl_Izzy_Foley.jpg" alt="Parliamentarian"></img>
-                    </div>
-                </div>
-
-                <div className="mission-row1">
-                    <div className="mission-col1">
-                        <img src="pictures/RecSec_Anna_L.jpg" alt="Recording Secretary"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/IA_Maddie_Galyon.jpg" alt="Initiate Advisor"></img>
-                    </div>
-                    <div className="mission-col1">
-                        <img src="pictures/IA_Chris_Lopez.jpg" alt="Initiate Advisor"></img>
+                        <img src="pictures/brenna_parl.png" alt="Parliamentarian"></img>
                     </div>
                 </div>
 
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/TreasurerAlumniChair_Matthew_Taylor.jpg" alt="Treasurer"></img>
+                        <img src="pictures/ben_rec_sec.png" alt="Recording Secretary"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/CorSec_Emma_S.jpg" alt="Corresponding Secretary"></img>
+                        <img src="pictures/ashley_ia.png" alt="Initiate Advisor"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Historian_Emma_M.jpg" alt="Historian"></img>
+                        <img src="pictures/lauren_ia.png" alt="Initiate Advisor"></img>
+                    </div>
+                </div>
+
+                <div className="mission-row1">
+                    <div className="mission-col1">
+                        <img src="pictures/caitlyn_treasurer.png" alt="Treasurer"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/lang_cor_sec.png" alt="Corresponding Secretary"></img>
+                    </div>
+                    <div className="mission-col1">
+                        <img src="pictures/courtney_historian.png" alt="Historian"></img>
                     </div>
                 </div>
                   
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Reece_Fellowship.png" alt="Fellowship"></img>
+                        <img src="pictures/christian_fellowship.png" alt="Fellowship"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Christian_Fellowship.png" alt="Fellowship"></img>
+                        <img src="pictures/kaleb_fellowship.png" alt="Fellowship"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Morgan_Scholarship.png" alt="Scholarship"></img>
+                        <img src="pictures/morgan_scholarship.png" alt="Scholarship"></img>
                     </div>
                 </div>
                 
                   <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Sofia_Leadership_IT.png" alt="Leadership and IT"></img>
+                        <img src="pictures/aris_it_leadership.png" alt="Leadership and IT"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Cedra_Leadership_Standards.png" alt="Leadership and Standards"></img>
+                        <img src="pictures/angela_leadership.png" alt="Leadership"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Lainey_Service.png" alt="Service"></img>
+                        <img src="pictures/lainey_service.png" alt="Service"></img>
                     </div>
                 </div>      
                     <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Andrew_Recruitment.png" alt="Recruitment"></img>
+                        <img src="pictures/ellie_recruitment.png" alt="Recruitment"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Abby_Recruitment.png" alt="Recruitment"></img>
+                        <img src="pictures/andrew_recruitment.png" alt="Recruitment"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Courtney_Alumni.png" alt="Alumni"></img>
+                        <img src="pictures/courtney_alum.png" alt="Alumni"></img>
                     </div>
                 </div>
                     <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Hope_IP.png" alt="IP"></img>
+                        <img src="pictures/angela_ip.png" alt="IP"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Lang_IP.png" alt="IP"></img>
+                        <img src="pictures/kiersten_ip.png" alt="IP"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Cassey_PR.png" alt="PR"></img>
+                        <img src="pictures/beckett_pr.png" alt="PR"></img>
                     </div>
                 </div>
 
                 <div className="mission-row1">
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Hannah_ICR.png" alt="ICR"></img>
+                        <img src="pictures/jackie_icr.png" alt="ICR"></img>
                     </div>
                     <div className="mission-col1">
-                        <img src="pictures/Spring_2026_Caitlyn_Fundraising.png" alt="Fundraising"></img>
+                        <img src="pictures/lyd_fundraising.png" alt="Fundraising"></img>
                     </div>
                 </div>
                 <section className="footer-container">
